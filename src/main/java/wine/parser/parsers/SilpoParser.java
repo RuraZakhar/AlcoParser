@@ -1,6 +1,7 @@
 package wine.parser.parsers;
 
 import wine.parser.model.WineProduct;
+import wine.parser.util.VolumeExtractor;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -34,14 +35,14 @@ public class SilpoParser implements WineParser {
         int offset = 0;
         boolean hasMore = true;
 
-        System.out.println("   [SilpoWine] Починаю збір вин з підбірки Vivino...");
+        System.out.println("   [SilpoWine] Starting to collect wines from the Vivino selection...");
 
         while (hasMore) {
             String url = API_CATALOG_URL + "?limit=" + limit + "&offset=" + offset + "&deliveryType=DeliveryHome&sortBy=productsList&sortDirection=desc&set=vyno-vivino";
 
             String responseBody = fetchWithRetry(url);
             if (responseBody == null) {
-                System.out.println("   [SilpoWine] ❌ Не вдалося отримати дані для offset=" + offset);
+                System.out.println("   [SilpoWine] ❌ Failed to fetch data for offset=" + offset);
                 break;
             }
 
@@ -57,10 +58,9 @@ public class SilpoParser implements WineParser {
                 for (JsonElement element : items) {
                     JsonObject item = element.getAsJsonObject();
 
-                    // 1. Отримуємо рейтинг і одразу фільтруємо!
                     Double vivinoRating = getDoubleOrNull(item, "vivinoRating");
                     if (vivinoRating == null || vivinoRating < 3.8) {
-                        continue; // Пропускаємо все, що нижче 3.8 або без рейтингу
+                        continue;
                     }
 
                     WineProduct wine = new WineProduct();
@@ -74,12 +74,11 @@ public class SilpoParser implements WineParser {
                         wine.setCleanName(title.toLowerCase());
                     }
 
-                    // Об'єм зручно брати з поля "displayRatio" (наприклад, "0,75л")
                     String displayRatio = getStringOrNull(item, "displayRatio");
                     if (displayRatio != null) {
-                        extractVolumeFromString(wine, displayRatio);
+                        VolumeExtractor.extractVolumeFromString(wine, displayRatio);
                     } else if (title != null) {
-                        extractVolumeFromString(wine, title);
+                        VolumeExtractor.extractVolumeFromString(wine, title);
                     }
 
                     wine.setSilpoPrice(getDoubleOrNull(item, "price"));
@@ -87,12 +86,12 @@ public class SilpoParser implements WineParser {
                     String slug = getStringOrNull(item, "slug");
                     if (slug != null) {
                         wine.setSilpoUrl(BASE_PRODUCT_URL + slug);
-                        // Якщо в тебе EAN використовується в Main.java для точного пошуку — забираємо деталі
+                        wine.addSourceUrl("Silpo", wine.getSilpoUrl());
                         fetchAndAddDetails(slug, wine);
                     }
 
                     wines.add(wine);
-                    System.out.println("      ✅ Додано: " + wine.getName() + " | Ціна: " + wine.getSilpoPrice() + " | Vivino: " + wine.getVivinoRating());
+                    System.out.println("      ✅ Added: " + wine.getName() + " | Price: " + wine.getSilpoPrice() + " | Vivino: " + wine.getVivinoRating());
                 }
 
                 if (items.size() < limit) {
@@ -102,16 +101,15 @@ public class SilpoParser implements WineParser {
                 }
 
             } catch (Exception e) {
-                System.err.println("   [SilpoWine] ❌ Помилка парсингу JSON: " + e.getMessage());
+                System.err.println("   [SilpoWine] ❌ JSON parsing error: " + e.getMessage());
                 hasMore = false;
             }
         }
 
-        System.out.println("   [SilpoWine] Завершено. Зібрано вин (>= 3.8): " + wines.size());
+        System.out.println("   [SilpoWine] Done. Collected wines (>= 3.8): " + wines.size());
         return wines;
     }
 
-    // Запит за деталями (щоб дістати EAN, колір або країну)
     private void fetchAndAddDetails(String slug, WineProduct wine) {
         String detailsUrl = API_DETAILS_URL + slug;
         String responseBody = fetchWithRetry(detailsUrl);
@@ -120,7 +118,6 @@ public class SilpoParser implements WineParser {
         try {
             JsonObject root = JsonParser.parseString(responseBody).getAsJsonObject();
 
-            // Дістаємо штрихкод (EAN)
             String ean = getStringOrNull(root, "barcode");
             if (ean == null) ean = getStringOrNull(root, "ean");
             if (ean != null && !ean.isBlank()) wine.setEan(ean);
@@ -139,14 +136,6 @@ public class SilpoParser implements WineParser {
                             if (attrKeyObj != null && valueObj != null) {
                                 String key = getStringOrNull(attrKeyObj, "key");
                                 String valueTitle = getStringOrNull(valueObj, "title");
-
-                                if (valueTitle != null) {
-                                    // У тебе в моделі може бути setCountry або setRegion
-                                    if ("country".equals(key)) {
-                                        // wine.setCountry(valueTitle);
-                                    }
-                                    // Можеш додати колір, якщо є таке поле в WineProduct
-                                }
                             }
                         }
                         break;
@@ -182,19 +171,6 @@ public class SilpoParser implements WineParser {
             }
         }
         return null;
-    }
-
-    private void extractVolumeFromString(WineProduct wine, String text) {
-        java.util.regex.Matcher volMatcher = java.util.regex.Pattern.compile("(?i)([0-9.,]+)\\s*(мл|ml|л|l)").matcher(text);
-        if (volMatcher.find()) {
-            try {
-                double v = Double.parseDouble(volMatcher.group(1).replace(",", "."));
-                if (volMatcher.group(2).toLowerCase().contains("м")) {
-                    v = v / 1000.0;
-                }
-                wine.setVolume(v);
-            } catch (NumberFormatException ignored) {}
-        }
     }
 
     private String getStringOrNull(JsonObject obj, String key) {

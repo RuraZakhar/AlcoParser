@@ -17,28 +17,23 @@ public class WineProduct {
     private String description;
     private Long lastScrapedAt;
 
-    // Maudau
     private Long maudauId;
     private Double maudauPrice;
     private String maudauUrl;
 
-    // Zakaz-Zaraz
     private String ean;
     private String sku;
     private Double price;
     private Boolean inStock;
     private Boolean isAlcohol;
     private String productUrl;
-    private Map<String, String> taxons = new LinkedHashMap<>();
     private Map<String, String> sourceUrls = new LinkedHashMap<>();
 
-    // Silpo (вино)
     private String winery;
     private Double vivinoRating;
     private Double silpoPrice;
     private String silpoUrl;
 
-    // OKWine
     private Double okwinePrice;
     private String okwineUrl;
 
@@ -106,9 +101,6 @@ public class WineProduct {
 
     public String getProductUrl() { return productUrl; }
     public void setProductUrl(String productUrl) { this.productUrl = productUrl; }
-
-    public Map<String, String> getTaxons() { return taxons; }
-    public void setTaxons(Map<String, String> taxons) { this.taxons = taxons; }
 
     public Map<String, String> getSourceUrls() { return sourceUrls; }
 
@@ -187,11 +179,6 @@ public class WineProduct {
         if (this.description == null) this.description = incoming.getDescription();
         if (this.reviewsCount == null) this.reviewsCount = incoming.getReviewsCount();
 
-        if (incoming.getTaxons() != null) {
-            for (Map.Entry<String, String> e : incoming.getTaxons().entrySet()) {
-                this.taxons.putIfAbsent(e.getKey(), e.getValue());
-            }
-        }
         if (incoming.getSourceUrls() != null) {
             for (Map.Entry<String, String> e : incoming.getSourceUrls().entrySet()) {
                 this.sourceUrls.putIfAbsent(e.getKey(), e.getValue());

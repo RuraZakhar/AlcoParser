@@ -1,4 +1,4 @@
-package wine.parser.utils;
+package wine.parser.util;
 
 import com.google.gson.JsonObject;
 
