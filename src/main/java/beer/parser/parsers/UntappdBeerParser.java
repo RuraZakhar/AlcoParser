@@ -91,6 +91,7 @@ public class UntappdBeerParser implements BeerParser {
     private void scrapeBrewery(Brewery brewery, List<BeerProduct> parsedBeers) {
         int page = 1;
         boolean keepGoing = true;
+        String previousPageFirstUrl = null;
 
         while (keepGoing && page <= MAX_PAGES_PER_BREWERY) {
             String url = brewery.getUntappdUrl() + "?sort=highest_rated" + (page > 1 ? "&page=" + page : "");
@@ -111,6 +112,19 @@ public class UntappdBeerParser implements BeerParser {
                 System.out.println("   [" + brewery.getName() + "] No beers found on page " + page + ". Stopping.");
                 break;
             }
+
+            // Confirmed real bug: for at least one brewery, an out-of-range page request didn't
+            // come back empty -- it just re-served page 1's content, so this loop kept adding the
+            // same beers on every page up to MAX_PAGES_PER_BREWERY (one listing ended up 10x in
+            // the output). Detect the repeat by comparing the first item's Untappd URL against
+            // the previous page's, and stop instead of looping through duplicates.
+            Element firstLink = beerItems.first().selectFirst("p.name a");
+            String firstUrl = firstLink != null ? firstLink.absUrl("href") : null;
+            if (firstUrl != null && firstUrl.equals(previousPageFirstUrl)) {
+                System.out.println("   [" + brewery.getName() + "] Page " + page + " repeats the previous page. Stopping.");
+                break;
+            }
+            previousPageFirstUrl = firstUrl;
 
             for (Element item : beerItems) {
                 BeerProduct beer;

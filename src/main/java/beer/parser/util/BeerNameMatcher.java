@@ -2,9 +2,12 @@ package beer.parser.util;
 
 import beer.parser.model.BeerProduct;
 
+import java.text.Normalizer;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 // Domain-specific name matcher, shaped like rum.parser.util.RumNameMatcher
@@ -36,10 +39,34 @@ public class BeerNameMatcher {
     private static final Pattern P_BANKA = Pattern.compile("банка");
     private static final Pattern P_UNIT_SUFFIX = Pattern.compile("\\d+[.,]?\\d*\\s*(ml|мл|l|л|%|°)");
     private static final Pattern P_NON_ALNUM = Pattern.compile("[^a-zа-яіїєґ0-9]");
+    private static final Pattern DIGIT_PATTERN = Pattern.compile("\\d+");
+    private static final Pattern DIACRITICS_PATTERN = Pattern.compile("\\p{M}");
+    // Кирилиця мусить лишитись (як і в P_NON_ALNUM вище) -- бренди на кшталт "Ципа"/"Правда"
+    // не мають дощенту зникати при нормалізації.
+    private static final Pattern NON_ALNUM_SPACE = Pattern.compile("[^a-zа-яіїєґ0-9 ]");
+    private static final Pattern WHITESPACE = Pattern.compile("\\s+");
+
+    // Той самий клас проблеми, що з прізвищем "Müller" у wine.parser: короткий загальний
+    // брендовий лейбл ("Імпортне пиво" -- фактично Silpo/Flasker так позначили кілька різних
+    // імпортних пивоварень замість реального бренду, підтверджено при аудиті) не повинен
+    // вважатись "відомим" брендом для конфлікт-перевірки -- інакше два геть різні імпортні
+    // пива хибно вважались би однією броварнею.
+    private static final Set<String> GENERIC_BRANDS = Set.of("імпортне пиво");
 
     public static double similarity(String name1, String name2) {
-        Set<String> words1 = tokenize(clean(name1));
-        Set<String> words2 = tokenize(clean(name2));
+        String cleaned1 = clean(name1);
+        String cleaned2 = clean(name2);
+
+        // Перевіряємо конфлікт чисел ПІСЛЯ clean() -- об'єм/ABV% (digit+unit) вже вирізано
+        // патерном вище, тож лишаються лише "голі" числа на кшталт року видання/партії
+        // ("Formula of the Autumn {2024}" проти "{2025}", "Malle Quadrupel [3/2026]") --
+        // саме вони й означають РІЗНЕ пиво, а не round-off різницю в ABV.
+        if (hasConflictingNumbers(cleaned1, cleaned2)) {
+            return 0.0;
+        }
+
+        Set<String> words1 = tokenize(cleaned1);
+        Set<String> words2 = tokenize(cleaned2);
 
         if (words1.isEmpty() || words2.isEmpty()) return 0.0;
 
@@ -99,5 +126,46 @@ public class BeerNameMatcher {
         s = P_UNIT_SUFFIX.matcher(s).replaceAll("");
         s = P_NON_ALNUM.matcher(s).replaceAll(" ");
         return s.trim();
+    }
+
+    private static boolean hasConflictingNumbers(String cleaned1, String cleaned2) {
+        Set<String> nums1 = extractNumbers(cleaned1);
+        Set<String> nums2 = extractNumbers(cleaned2);
+        if (nums1.isEmpty() || nums2.isEmpty()) return false;
+        return Collections.disjoint(nums1, nums2);
+    }
+
+    private static Set<String> extractNumbers(String s) {
+        Set<String> nums = new HashSet<>();
+        Matcher m = DIGIT_PATTERN.matcher(s);
+        while (m.find()) nums.add(m.group());
+        return nums;
+    }
+
+    /**
+     * Той самий guard, що й WineryWhitelist.sameWinery у wine.parser: якщо в обох пив вже
+     * відомий (не null, не generic) бренд і вони явно різні, злиття блокується одразу, ще до
+     * того, як BeerNameMatcher.similarity побачить пару слів. Без цього короткий бренд легко
+     * програє довшому спільному стилю/дескриптору (той самий клас бага, що й
+     * "Freemark Abbey" -> "Duckhorn" у вині).
+     */
+    public static boolean sameBrand(String brand1, String brand2) {
+        if (brand1 == null || brand2 == null) return true;
+        String a = normalizeBrand(brand1);
+        String b = normalizeBrand(brand2);
+        if (a.isEmpty() || b.isEmpty()) return true;
+        if (GENERIC_BRANDS.contains(a) || GENERIC_BRANDS.contains(b)) return true;
+
+        String paddedA = " " + a + " ";
+        String paddedB = " " + b + " ";
+        return a.equals(b) || paddedA.contains(paddedB) || paddedB.contains(paddedA);
+    }
+
+    private static String normalizeBrand(String value) {
+        String normalized = Normalizer.normalize(value, Normalizer.Form.NFD);
+        normalized = DIACRITICS_PATTERN.matcher(normalized).replaceAll("");
+        normalized = normalized.toLowerCase();
+        normalized = NON_ALNUM_SPACE.matcher(normalized).replaceAll(" ");
+        return WHITESPACE.matcher(normalized).replaceAll(" ").trim();
     }
 }

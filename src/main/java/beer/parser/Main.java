@@ -112,6 +112,16 @@ public class Main {
                 continue;
             }
 
+            // Same class of bug caught and fixed in wine.parser this session: pure word-overlap
+            // similarity has no concept of "brewery", so two beers from DIFFERENT breweries can
+            // still score above threshold if the style/descriptor words they share outweigh the
+            // brewery name (short brewery name vs a long shared style string). Block the merge
+            // outright whenever both sides already have a known, non-generic brand and they
+            // don't match, before BeerNameMatcher ever sees the pair.
+            if (!BeerNameMatcher.sameBrand(existing.getBrand(), newBeer.getBrand())) {
+                continue;
+            }
+
             fuzzyCandidates.add(existing);
         }
 
@@ -132,6 +142,15 @@ public class Main {
                 return existing;
             }
             if (newBeer.getFlaskerUrl() != null && newBeer.getFlaskerUrl().equals(existing.getFlaskerUrl())) {
+                return existing;
+            }
+            // untappdUrl was never checked here -- two BeerProduct objects sharing the exact
+            // same Untappd page never got recognized as the same beer and both stayed in the
+            // list. Confirmed real damage: a broken Untappd listing (name scraped as "\") got
+            // re-added 10 times because this check silently skipped straight to fuzzy-matching,
+            // and an empty/degenerate cleaned name always scores 0 similarity against anything,
+            // including itself.
+            if (newBeer.getUntappdUrl() != null && newBeer.getUntappdUrl().equals(existing.getUntappdUrl())) {
                 return existing;
             }
         }

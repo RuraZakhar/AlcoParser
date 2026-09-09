@@ -121,6 +121,13 @@ public class BeerProduct {
         if (this.style == null) this.style = incoming.getStyle();
         if (this.imgUrl == null) this.imgUrl = incoming.getImgUrl();
         if (this.brand == null) this.brand = incoming.getBrand();
+
+        // Confirmed real bug (external audit): these were flagged UNCATEGORIZED / never touched,
+        // so a beer that started life as a Silpo/Flasker-only entry and later fuzzy-matched an
+        // Untappd record kept the rating but silently lost the only link back to its Untappd
+        // page -- 297 beers ended up with an untappdRating but no untappdUrl.
+        if (this.untappdUrl == null) this.untappdUrl = incoming.getUntappdUrl();
+        if (this.untappdSearchUrl == null) this.untappdSearchUrl = incoming.getUntappdSearchUrl();
     }
 
     @Override

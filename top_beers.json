@@ -2670,30 +2670,6 @@
     "untappdUrl": "https://untappd.com/b/trillium-brewing-company-obiective-lens-peanut-butter/5618821"
   },
   {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
     "name": "NewZilla Play With Me",
     "brand": "Strange Toys",
     "untappdRating": 4.339,
@@ -2854,54 +2830,6 @@
     "abv": 5.0,
     "ibu": 15,
     "untappdUrl": "https://untappd.com/b/strange-toys-zappa-on-casting/6825185"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
-  },
-  {
-    "name": "\\",
-    "brand": "Tommie Sjef",
-    "untappdRating": 4.288,
-    "style": "Wild Ale - Other",
-    "abv": 5.0,
-    "untappdUrl": "https://untappd.com/b/tommie-sjef/1893497"
   },
   {
     "name": "Comforting Habit",
@@ -6243,7 +6171,7 @@
     "brand": "Rochefort",
     "untappdRating": 4.2,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/98208605-8f16-467a-8926-ba66adacf94b.png",
-    "silpoPrice": 229.0,
+    "silpoPrice": 239.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-trappistes-rochefort-10-temne-solodove-nefiltrovane-545765",
     "flaskerPrice": 284.0,
     "flaskerUrl": "https://flasker.com.ua/product/trappistes-rochefort-10-2025-330-ml/",
@@ -6262,7 +6190,7 @@
     "brand": "Rochefort",
     "untappdRating": 3.942,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/7c84155d-b0b1-43f3-99b2-5075d91e8e71.png",
-    "silpoPrice": 139.0,
+    "silpoPrice": 189.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-trappistes-rochefort-triple-extra-svitle-842951",
     "style": "Belgian Tripel",
     "abv": 7.6,
@@ -7550,22 +7478,6 @@
     "untappdUrl": "https://untappd.com/b/brouwerij-st-bernardus-baksteen-winkel/2161761"
   },
   {
-    "name": "Christmas Ale",
-    "brand": "Brouwerij St.Bernardus",
-    "untappdRating": 3.853,
-    "imgUrl": "https://s7g10.scene7.com/is/image/silpo/ace483eb-33c3-4a0d-b351-ea0b5e145326.png",
-    "silpoPrice": 109.0,
-    "silpoUrl": "https://silpo.ua/product/pyvo-pravda-christmas-ale-temne-nefiltrovane-z-b-939296",
-    "style": "Winter Ale",
-    "abv": 10.0,
-    "ibu": 20,
-    "untappdUrl": "https://untappd.com/b/brouwerij-st-bernardus-christmas-ale/8121",
-    "country": "Україна",
-    "packaging": "Банка",
-    "volume": 0.33,
-    "lastScrapedAt": 1788130909291
-  },
-  {
     "name": "75 Years Anniversary",
     "brand": "Brouwerij St.Bernardus",
     "untappdRating": 3.842,
@@ -8656,7 +8568,7 @@
     "brand": "La Trappe",
     "untappdRating": 3.9,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/a9f13622-4d57-4d59-a290-807ab2382095.png",
-    "silpoPrice": 149.0,
+    "silpoPrice": 159.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-la-trappe-quadrupel-iantarne-nefiltrovane-601254",
     "style": "Belgian Quadrupel",
     "abv": 10.0,
@@ -9083,7 +8995,7 @@
     "brand": "Samuel Smith",
     "untappdRating": 4.034,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/2d9e1c36-2192-42c0-ad12-3b03121cb451.png",
-    "silpoPrice": 99.0,
+    "silpoPrice": 119.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-samuel-smith-organic-chocolate-stout-temne-789759",
     "silpoRating": 4.9,
     "style": "Stout - Other",
@@ -9133,7 +9045,7 @@
     "brand": "Brouwerij Verhaeghe",
     "untappdRating": 3.964,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/d7490392-8689-42df-89c8-94e6b6be3e03.png",
-    "silpoPrice": 139.0,
+    "silpoPrice": 149.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-barbe-ruby-rubinove-filtrovane-pasteryzovane-696333",
     "silpoRating": 4.9,
     "style": "Fruit Beer",
@@ -10571,7 +10483,7 @@
     "brand": "Brouwerij De Ranke",
     "untappdRating": 3.922,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/9b57ffa7-cc22-4eee-a038-1bc16418b7d9.png",
-    "silpoPrice": 4299.0,
+    "silpoPrice": 899.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-de-ranke-kriek-fruktove-950757",
     "style": "Sour - Fruited",
     "abv": 7.0,
@@ -11168,7 +11080,7 @@
     "brand": "Huyghe Brewery",
     "untappdRating": 3.839,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/884daa82-e5d6-4a88-9eac-8c83a874c5dd.png",
-    "silpoPrice": 129.0,
+    "silpoPrice": 159.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-delirium-tremens-svitle-891677",
     "silpoRating": 4.8,
     "style": "Belgian Strong Golden Ale",
@@ -12537,7 +12449,7 @@
     "brand": "Mova",
     "untappdRating": 3.81,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/4eb448a0-e503-45fd-b413-2a9adfc0aab5.png",
-    "silpoPrice": 49.99,
+    "silpoPrice": 74.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-mova-stout-oatmeal-temne-nefiltrovane-912327",
     "silpoRating": 4.4,
     "abv": 4.9,
@@ -12579,7 +12491,7 @@
     "brand": "Varvar",
     "untappdRating": 3.93,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/65d56cd7-b1b0-4243-ae6b-8f55d58060b8.png",
-    "silpoPrice": 99.0,
+    "silpoPrice": 91.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-varvar-golden-ale-svitle-nefiltrovane-z-b-959239",
     "silpoRating": 5.0,
     "abv": 6.9,
@@ -12593,7 +12505,7 @@
     "brand": "Mova",
     "untappdRating": 3.88,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/774e35ed-8948-4ee7-9ba8-18d2dfa17e8e.png",
-    "silpoPrice": 49.99,
+    "silpoPrice": 65.49,
     "silpoUrl": "https://silpo.ua/product/pyvo-mova-stout-vanilla-temne-nefiltrovane-912324",
     "silpoRating": 4.2,
     "abv": 4.9,
@@ -12619,7 +12531,7 @@
   {
     "name": "Пиво Ципа Самотня світле нефільтроване з/б",
     "brand": "Ципа",
-    "untappdRating": 3.86,
+    "untappdRating": 3.87,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/377e7b78-17dd-42df-baf1-ccfcf934ccec.png",
     "silpoPrice": 99.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-tsypa-samotnia-svitle-nefiltrovane-z-b-993155",
@@ -12634,7 +12546,7 @@
     "brand": "Underwood Brewery",
     "untappdRating": 3.87,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/0845f0ce-2688-4d35-9d1b-dbcdd4db1209.png",
-    "silpoPrice": 84.99,
+    "silpoPrice": 73.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-underwood-brewery-capital-dipa-doubipa-cvitle-z-b-994130",
     "silpoRating": 4.1,
     "abv": 8.0,
@@ -12661,7 +12573,7 @@
     "brand": "Underwood Brewery",
     "untappdRating": 4.01,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/3fbef645-f171-42b0-bc0f-e66dcdcaf149.png",
-    "silpoPrice": 99.0,
+    "silpoPrice": 85.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-underwood-brewery-yucatan-gold-svitle-nefiltrovane-z-b-939295",
     "silpoRating": 4.6,
     "abv": 4.7,
@@ -12675,7 +12587,7 @@
     "brand": "Ципа",
     "untappdRating": 3.98,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/8b4646c5-9dbb-48ad-a6f9-69068cf4f364.png",
-    "silpoPrice": 119.0,
+    "silpoPrice": 99.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-tsypa-100-napivtemne-nefiltrovane-z-b-973892",
     "silpoRating": 4.8,
     "abv": 7.8,
@@ -12814,7 +12726,7 @@
     "brand": "2085",
     "untappdRating": 3.87,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/48500f1a-f6ff-4b53-80e7-d0d4a8011da5.png",
-    "silpoPrice": 122.0,
+    "silpoPrice": 119.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-2085-19-west-coast-ipa-svitle-nefiltrovane-z-b-940397",
     "abv": 6.3,
     "country": "Україна",
@@ -12854,7 +12766,7 @@
     "brand": "Ципа",
     "untappdRating": 3.9,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/e9dfbd1c-8ffc-454f-a6ef-e7c6d864d376.png",
-    "silpoPrice": 79.99,
+    "silpoPrice": 99.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-tsypa-chorna-temne-nefiltrovane-z-b-949115",
     "silpoRating": 4.7,
     "abv": 7.6,
@@ -12868,7 +12780,7 @@
     "brand": "Правда",
     "untappdRating": 3.88,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/f6bd9cc6-de1a-42c1-8356-da0a3f5ad3c7.png",
-    "silpoPrice": 79.49,
+    "silpoPrice": 82.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-pravda-gvara-8-smok-temne-nefiltrovane-957193",
     "silpoRating": 3.5,
     "abv": 8.0,
@@ -12922,7 +12834,7 @@
     "brand": "Underwood Brewery",
     "untappdRating": 4.02,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/4a3979fa-cb76-43e8-b9c8-410910eb04f9.png",
-    "silpoPrice": 115.0,
+    "silpoPrice": 79.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-underwood-brewery-shchedryk-svitle-nefiltrovane-z-b-973893",
     "silpoRating": 4.4,
     "abv": 4.4,
@@ -13037,9 +12949,9 @@
     "brand": "Underwood Brewery",
     "untappdRating": 3.96,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/22dad442-ce80-4fd7-9853-b5de88dabe48.png",
-    "silpoPrice": 89.99,
+    "silpoPrice": 79.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-underwood-brewery-tricky-treat-svitle-nefiltrovane-z-b-1007066",
-    "silpoRating": 3.9,
+    "silpoRating": 4.0,
     "abv": 4.8,
     "country": "Україна",
     "volume": 0.33,
@@ -13050,7 +12962,7 @@
     "brand": "Underwood Brewery",
     "untappdRating": 4.05,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/67778564-3126-4dea-90d2-ac8e7c2cf507.png",
-    "silpoPrice": 94.99,
+    "silpoPrice": 80.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-underwood-brewery-tomato-gose-gaijin-svitle-nefiltrovane-z-b-1015195",
     "abv": 3.0,
     "country": "Україна",
@@ -13294,7 +13206,7 @@
     "brand": "Duchesse de Bourgogne",
     "untappdRating": 4.05,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/266c3ed2-fa81-410e-a786-ccb730c2df3e.png",
-    "silpoPrice": 199.0,
+    "silpoPrice": 249.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-duchesse-de-bourgogne-red-rubinove-999467",
     "silpoRating": 5.0,
     "abv": 7.0,
@@ -13305,9 +13217,9 @@
   {
     "name": "Пиво St.Bernardus Abt 12 темне фільтроване",
     "brand": "St.Bernardus",
-    "untappdRating": 4.1,
+    "untappdRating": 4.11,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/603a4329-deff-4dd7-bee2-6c1d64fa0e63.png",
-    "silpoPrice": 179.0,
+    "silpoPrice": 154.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-st-bernardus-abt-12-temne-filtrovane-594961",
     "silpoRating": 4.7,
     "abv": 10.0,
@@ -13321,7 +13233,7 @@
     "brand": "Saugatuck",
     "untappdRating": 3.82,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/27ea9fb0-f4d0-4ca9-becc-fdfba6e1c88e.png",
-    "silpoPrice": 139.0,
+    "silpoPrice": 179.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-saugatuck-neapolitan-milk-stout-temne-nefiltrovane-z-b-803990",
     "silpoRating": 5.0,
     "abv": 6.0,
@@ -13335,7 +13247,7 @@
     "brand": "Duchesse de Bourgogne",
     "untappdRating": 3.89,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/b993dea1-5dc4-41d2-a5fb-581df4ba351f.png",
-    "silpoPrice": 159.0,
+    "silpoPrice": 179.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-duchesse-de-bourgogne-cherry-temne-789746",
     "silpoRating": 3.2,
     "abv": 6.8,
@@ -13349,7 +13261,7 @@
     "brand": "Tripel Karmeliet",
     "untappdRating": 3.97,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/5f51e488-11dd-4041-87c7-486601bf957f.png",
-    "silpoPrice": 112.0,
+    "silpoPrice": 92.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-tripel-karmeliet-svitle-795173",
     "silpoRating": 4.7,
     "abv": 8.4,
@@ -13363,7 +13275,7 @@
     "brand": "Duchesse de Bourgogne",
     "untappdRating": 3.85,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/f5cb233e-8dbf-4994-9908-4cfe237a3051.png",
-    "silpoPrice": 169.0,
+    "silpoPrice": 229.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-duchesse-de-bourgogne-chocolate-cherry-temne-789748",
     "silpoRating": 3.2,
     "abv": 6.8,
@@ -13390,7 +13302,7 @@
     "brand": "Kasteel",
     "untappdRating": 3.93,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/64f2baae-4fd5-4bc5-b89c-9ad2c638115b.png",
-    "silpoPrice": 179.0,
+    "silpoPrice": 219.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-kasteel-cuvee-du-chateau-temne-821002",
     "silpoRating": 4.6,
     "abv": 11.0,
@@ -13404,7 +13316,7 @@
     "brand": "Samuel Smith",
     "untappdRating": 3.8,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/77b368a1-e274-472f-91f6-7839c98ad397.png",
-    "silpoPrice": 229.0,
+    "silpoPrice": 234.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-samuel-smith-yorkshire-stingo-iantarne-789765",
     "silpoRating": 4.0,
     "abv": 8.0,
@@ -13418,7 +13330,7 @@
     "brand": "Gulden Draak",
     "untappdRating": 3.81,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/eae73761-0645-44e3-a154-1b22b7cad128.png",
-    "silpoPrice": 169.0,
+    "silpoPrice": 174.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-gulden-draak-9000-iantarne-709244",
     "abv": 10.5,
     "country": "Бельгія",
@@ -13431,7 +13343,7 @@
     "brand": "Saugatuck",
     "untappdRating": 3.87,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/3957c1c7-7d68-4c5d-ac0d-ecb6387c7fd3.png",
-    "silpoPrice": 134.0,
+    "silpoPrice": 139.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-saugatuck-peanut-butter-porter-temne-nefiltrovane-z-b-803991",
     "silpoRating": 4.9,
     "abv": 5.7,
@@ -13445,7 +13357,7 @@
     "brand": "Boon",
     "untappdRating": 3.87,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/9e1c6133-082c-44e6-bc91-d2f5b4968402.png",
-    "silpoPrice": 429.0,
+    "silpoPrice": 444.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-boon-kriek-mariage-parfait-temno-chervone-591367",
     "silpoRating": 3.3,
     "abv": 8.0,
@@ -13486,7 +13398,7 @@
     "brand": "Westmalle",
     "untappdRating": 3.8,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/7c2e6dc4-2652-4c7f-b37e-67af1bfe40cc.png",
-    "silpoPrice": 114.0,
+    "silpoPrice": 164.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-westmalle-trappist-tripel-svitle-filtrovane-593933",
     "silpoRating": 4.5,
     "abv": 9.5,
@@ -13500,7 +13412,7 @@
     "brand": "Chimay",
     "untappdRating": 4.13,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/823d750d-87d4-4d3b-a87f-f07a71c81d76.png",
-    "silpoPrice": 139.0,
+    "silpoPrice": 149.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-chimay-blue-395012",
     "silpoRating": 4.5,
     "abv": 9.0,
@@ -13514,7 +13426,7 @@
     "brand": "Schloss Eggenberg",
     "untappdRating": 4.21,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/f2167729-b816-4b1c-8af9-1d51b50741e5.png",
-    "silpoPrice": 199.0,
+    "silpoPrice": 204.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-schloss-eggenberg-samichlaus-temne-filtrovane-653816",
     "abv": 14.0,
     "country": "Австрія",
@@ -13527,7 +13439,7 @@
     "brand": "Tilquin",
     "untappdRating": 4.14,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/1296c6ab-1b17-44bd-a1e2-00b242372e7e.png",
-    "silpoPrice": 799.0,
+    "silpoPrice": 1799.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-tilquin-oude-airelle-sauvage-iantarne-nefiltrovane-953280",
     "abv": 6.5,
     "country": "Бельгія",
@@ -13540,7 +13452,7 @@
     "brand": "Tilquin",
     "untappdRating": 4.06,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/d8b4fc62-f225-4b06-af6a-929e5b3c0986.png",
-    "silpoPrice": 499.0,
+    "silpoPrice": 699.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-tilquin-oude-gueuze-svitle-nefiltrovane-953277",
     "abv": 7.0,
     "country": "Бельгія",
@@ -13553,7 +13465,7 @@
     "brand": "Tilquin",
     "untappdRating": 4.02,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/f5a99d38-b579-4785-bb76-c87f8f3d0c75.png",
-    "silpoPrice": 799.0,
+    "silpoPrice": 1799.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-tilquin-oude-mure-iantarne-nefiltrovane-953278",
     "abv": 6.0,
     "country": "Бельгія",
@@ -13566,7 +13478,7 @@
     "brand": "Gulden Draak",
     "untappdRating": 3.8,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/be4c56c7-cf92-40e5-8c61-3fa233b6b164.png",
-    "silpoPrice": 1399.0,
+    "silpoPrice": 1459.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-gulden-draak-cuvee-prestige-laphroaig-iantarne-nefiltrovane-948421",
     "abv": 10.5,
     "country": "Бельгія",
@@ -13579,7 +13491,7 @@
     "brand": "Gulden Draak",
     "untappdRating": 4.01,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/e9dbcb4c-bb6b-492e-af77-cb9b43deff88.png",
-    "silpoPrice": 1399.0,
+    "silpoPrice": 1459.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-gulden-draak-cuvee-prestige-madeira-iantarne-nefiltrovane-948422",
     "abv": 10.5,
     "country": "Бельгія",
@@ -13592,7 +13504,7 @@
     "brand": "Brasserie de Blaugies",
     "untappdRating": 3.8,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/aefef490-5e50-4e31-b5c9-10d97127675b.png",
-    "silpoPrice": 399.0,
+    "silpoPrice": 549.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-brasserie-de-blaugies-la-vermontoise-svitle-nefiltrovane-948506",
     "abv": 6.0,
     "country": "Бельгія",
@@ -13618,7 +13530,7 @@
     "brand": "La Jungle",
     "untappdRating": 4.06,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/38b702b9-fb76-4d03-ab2e-1e80f74ac081.png",
-    "silpoPrice": 584.0,
+    "silpoPrice": 699.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-la-jungle-brussel-uzvar-svitle-nefiltrovane-999484",
     "abv": 6.5,
     "country": "Бельгія",
@@ -13669,7 +13581,7 @@
     "brand": "St.Bernardus",
     "untappdRating": 3.85,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/394d4616-ec21-4f4c-90c7-d1ab623d65c9.png",
-    "silpoPrice": 144.0,
+    "silpoPrice": 199.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-st-bernardus-rizdvianyi-el-temne-698912",
     "abv": 10.0,
     "country": "Бельгія",
@@ -13747,7 +13659,7 @@
     "brand": "Lindemans",
     "untappdRating": 4.06,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/1a5ca1f2-4a5e-4972-9180-ccc8ad1dff1a.png",
-    "silpoPrice": 1049.0,
+    "silpoPrice": 1099.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-lindemans-oude-gueuze-cuvee-francisca-svitle-922383",
     "abv": 8.0,
     "country": "Бельгія",
@@ -13760,7 +13672,7 @@
     "brand": "Lakefront",
     "untappdRating": 3.91,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/e3e7bb94-9148-4399-ab45-1c493c893a11.png",
-    "silpoPrice": 169.0,
+    "silpoPrice": 101.32,
     "silpoUrl": "https://silpo.ua/product/pyvo-lakefront-hop-gods-svitle-z-b-927669",
     "abv": 9.1,
     "country": "США",
@@ -13797,7 +13709,7 @@
     "brand": "De Ranke",
     "untappdRating": 3.92,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/76673b05-fbf2-4b92-b99d-c31f87ca0589.png",
-    "silpoPrice": 3199.0,
+    "silpoPrice": 799.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-de-ranke-cuvee-svitle-950759",
     "abv": 7.0,
     "country": "Бельгія",
@@ -13823,7 +13735,7 @@
     "brand": "Cantillon",
     "untappdRating": 4.05,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/4d88d20b-fecc-4108-89ac-a93d4212973e.png",
-    "silpoPrice": 779.0,
+    "silpoPrice": 579.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-cantillon-cuvee-saint-gilloise-svitle-nefiltrovane-954899",
     "abv": 5.5,
     "country": "Бельгія",
@@ -13836,7 +13748,7 @@
     "brand": "Cantillon",
     "untappdRating": 3.92,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/bb4f3bba-5ae2-4613-b807-15f1b04a1e5d.png",
-    "silpoPrice": 1049.0,
+    "silpoPrice": 789.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-cantillon-vigneronne-svitle-nefiltrovane-954901",
     "abv": 6.5,
     "country": "Бельгія",
@@ -13888,7 +13800,7 @@
     "brand": "Boon",
     "untappdRating": 4.07,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/97ac8a2f-ba20-40aa-8a51-9fc374aca541.png",
-    "silpoPrice": 2399.0,
+    "silpoPrice": 2499.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-boon-oude-geuze-apogee-svitle-972176",
     "abv": 7.0,
     "country": "Бельгія",
@@ -13901,7 +13813,7 @@
     "brand": "Horal",
     "untappdRating": 3.92,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/382f681b-00aa-45c4-9a8a-6d98535bd29e.png",
-    "silpoPrice": 1499.0,
+    "silpoPrice": 1399.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-horal-oude-geuze-megablend-svitle-2024-972177",
     "abv": 7.0,
     "country": "Бельгія",
@@ -13914,7 +13826,7 @@
     "brand": "Val-Dieu",
     "untappdRating": 4.12,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/241c87d7-e64f-46ed-849e-365d7c33716e.png",
-    "silpoPrice": 1799.0,
+    "silpoPrice": 1699.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-val-dieu-excellence-barrique-de-bourbon-svitle-nefiltrovane-957410",
     "abv": 13.7,
     "country": "Бельгія",
@@ -13953,7 +13865,7 @@
     "brand": "Fourchette",
     "untappdRating": 3.91,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/e04613fa-ffca-43e8-822c-4134c9dc5421.png",
-    "silpoPrice": 1999.0,
+    "silpoPrice": 1899.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-fourchette-grand-cru-sauvignon-blanc-svitle-976553",
     "abv": 7.5,
     "country": "Бельгія",
@@ -13966,7 +13878,7 @@
     "brand": "Steam-Brew",
     "untappdRating": 3.98,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/8d6e47f3-fa28-467e-8a94-8f47fe8f30f6.png",
-    "silpoPrice": 83.99,
+    "silpoPrice": 69.99,
     "silpoUrl": "https://silpo.ua/product/pyvo-steam-brew-imperial-stout-temne-filtrovane-z-b-997306",
     "silpoRating": 4.7,
     "abv": 7.5,
@@ -14087,7 +13999,7 @@
     "brand": "Evil Twin Brewing",
     "untappdRating": 4.39,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/a0c865fa-c131-4f62-af53-86d8f031440e.png",
-    "silpoPrice": 699.0,
+    "silpoPrice": 669.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-evil-twin-brewing-fruc-danic-royal-treat-nefiltrovane-z-b-1010787",
     "abv": 7.0,
     "country": "США",
@@ -14099,7 +14011,7 @@
     "brand": "Evil Twin Brewing",
     "untappdRating": 3.8,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/027e75f9-2af4-490b-9624-9533871318d6.png",
-    "silpoPrice": 429.0,
+    "silpoPrice": 424.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-evil-twin-brewing-greenhouse-steam-iantarne-nefiltrovane-z-b-1010782",
     "abv": 4.9,
     "country": "США",
@@ -14111,7 +14023,7 @@
     "brand": "Evil Twin Brewing",
     "untappdRating": 3.96,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/01b92af8-7c72-493e-a0e4-a95671b3a4b5.png",
-    "silpoPrice": 539.0,
+    "silpoPrice": 479.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-evil-twin-brewing-make-it-fruit-island-blend-svitle-nefiltrovane-z-b-1010785",
     "abv": 4.5,
     "country": "США",
@@ -14147,7 +14059,7 @@
     "brand": "Evil Twin Brewing",
     "untappdRating": 3.97,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/0def0aa8-af39-40c5-abee-5cdbb16173d8.png",
-    "silpoPrice": 539.0,
+    "silpoPrice": 479.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-evil-twin-brewing-make-it-fruit-berry-blend-nefiltrovane-z-b-1010783",
     "abv": 4.5,
     "country": "США",
@@ -14159,7 +14071,7 @@
     "brand": "Val-Dieu",
     "untappdRating": 3.99,
     "imgUrl": "https://s7g10.scene7.com/is/image/silpo/6780c010-e602-46b1-8307-4e4c1f036bc7.png",
-    "silpoPrice": 1899.0,
+    "silpoPrice": 1799.0,
     "silpoUrl": "https://silpo.ua/product/pyvo-val-dieu-excellence-calvados-svitle-nefiltrovane-11-5-1013618",
     "abv": 11.5,
     "country": "Бельгія",
@@ -14392,7 +14304,7 @@
     "ibu": 9,
     "country": "Україна",
     "volume": 0.5,
-    "lastScrapedAt": 1788130929617
+    "lastScrapedAt": 1788992123678
   },
   {
     "name": "Crystal Clear IPA",
@@ -14425,14 +14337,14 @@
   {
     "name": "Malle Quadrupel [3/2026]",
     "brand": "Malle",
-    "untappdRating": 4.08,
+    "untappdRating": 4.09,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2025/08/quad.jpg",
     "flaskerPrice": 650.0,
     "flaskerUrl": "https://flasker.com.ua/product/malle-quadrupel-3-2025-11-0-75l/",
     "abv": 11.0,
     "country": "Україна",
     "volume": 0.75,
-    "lastScrapedAt": 1788130931344
+    "lastScrapedAt": 1788992124935
   },
   {
     "name": "Malle The Sparkling Hop",
@@ -14458,7 +14370,7 @@
     "ibu": 23,
     "country": "Україна",
     "volume": 0.75,
-    "lastScrapedAt": 1788130930308
+    "lastScrapedAt": 1788992124534
   },
   {
     "name": "Malle Laphroaig. Strong Smoke Whisky Ale",
@@ -14549,7 +14461,7 @@
     "ibu": 15,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130932204
+    "lastScrapedAt": 1788992124708
   },
   {
     "name": "REBREW KOTOMATO WASABI TOMATO GOSE",
@@ -14561,7 +14473,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130932954
+    "lastScrapedAt": 1788992125779
   },
   {
     "name": "REBREW KOTOMATO GINGER TOMATO GOSE",
@@ -14573,7 +14485,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130932954
+    "lastScrapedAt": 1788992126861
   },
   {
     "name": "REBREW Pomi D'Oro Tomato Gose: Tom Yum Edition",
@@ -14585,7 +14497,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130933669
+    "lastScrapedAt": 1788992125525
   },
   {
     "name": "REBREW Pomi D’Oro Tomato Gose BBQ ed.",
@@ -14597,7 +14509,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130934204
+    "lastScrapedAt": 1788992127818
   },
   {
     "name": "REBREW Cat Sith IMPERIAL SCOTCH ALE 2026",
@@ -14610,7 +14522,7 @@
     "ibu": 50,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130934338
+    "lastScrapedAt": 1788992127843
   },
   {
     "name": "REBREW Cat Sith + Oak Chips 2026",
@@ -14623,7 +14535,7 @@
     "ibu": 50,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130934255
+    "lastScrapedAt": 1788992128003
   },
   {
     "name": "VARVAR Thyme Traveller Double Stout",
@@ -14753,7 +14665,7 @@
     "ibu": 8,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130939560
+    "lastScrapedAt": 1788992129485
   },
   {
     "name": "MGM-15",
@@ -14764,7 +14676,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/%d0%bf%d1%80%d0%b5%d0%b4%d1%80%d0%b5%d0%bb%d1%96%d0%b7-mgm-15/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130943487
+    "lastScrapedAt": 1788992131095
   },
   {
     "name": "VOLTA/THE WORST LAGER IN THE WORLD",
@@ -14777,7 +14689,7 @@
     "ibu": 20,
     "country": "Україна",
     "volume": 0.5,
-    "lastScrapedAt": 1788130941520
+    "lastScrapedAt": 1788992122227
   },
   {
     "name": "VOLTA KOMETA IPA",
@@ -14790,7 +14702,7 @@
     "ibu": 50,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130941403
+    "lastScrapedAt": 1788992120865
   },
   {
     "name": "ШО (IIIO) Beetnik Tomato Gose",
@@ -14855,7 +14767,7 @@
     "abv": 7.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130946885
+    "lastScrapedAt": 1788992130672
   },
   {
     "name": "ЦИПА Сидр з Брусницею ROSE",
@@ -14867,7 +14779,7 @@
     "abv": 7.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130945482
+    "lastScrapedAt": 1788992130759
   },
   {
     "name": "MAD BREW Bitter Cost IPA 0.33",
@@ -14892,7 +14804,7 @@
     "abv": 4.5,
     "country": "Україна",
     "volume": 0.75,
-    "lastScrapedAt": 1788130951721
+    "lastScrapedAt": 1788992133754
   },
   {
     "name": "Mad Girl Stout Raspberry",
@@ -14917,7 +14829,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/mad-girl-method-special-cherry-warmer-2024-25-330ml/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130953146
+    "lastScrapedAt": 1788992135370
   },
   {
     "name": "Bandera de la Gran Colombia DIPA",
@@ -14930,7 +14842,7 @@
     "ibu": 120,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130953146
+    "lastScrapedAt": 1788992135925
   },
   {
     "name": "Tomato Lime Tabasco edition",
@@ -14943,7 +14855,7 @@
     "ibu": 8,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130954009
+    "lastScrapedAt": 1788992136232
   },
   {
     "name": "Tomato Lime",
@@ -14982,7 +14894,7 @@
     "abv": 4.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130960682
+    "lastScrapedAt": 1788992138859
   },
   {
     "name": "2085-16.1 AZACCA NEIPA 0.33",
@@ -15000,13 +14912,13 @@
   {
     "name": "VibrantPour Red Silk - Pastry IS",
     "brand": "Vibrant Pour",
-    "untappdRating": 4.09,
+    "untappdRating": 4.1,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2024/08/0-5.jpg",
     "flaskerPrice": 149.0,
     "flaskerUrl": "https://flasker.com.ua/product/vibrantpour-red-silk-pastry-is-11/",
     "abv": 11.0,
     "country": "Україна",
-    "lastScrapedAt": 1788130961147
+    "lastScrapedAt": 1788992138449
   },
   {
     "name": "REBREW ІСКРА SIPA",
@@ -15055,7 +14967,7 @@
     "abv": 10.0,
     "ibu": 3,
     "country": "Україна",
-    "lastScrapedAt": 1788130963291
+    "lastScrapedAt": 1788992140125
   },
   {
     "name": "CITADEL Томатка",
@@ -15067,7 +14979,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130963291
+    "lastScrapedAt": 1788992140127
   },
   {
     "name": "VibrantPour CHEEKY TENTACL",
@@ -15129,7 +15041,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/vibrant-pour-dead-men-drink-no-cherry-stout-10-330ml/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130963766
+    "lastScrapedAt": 1788992139781
   },
   {
     "name": "Flasker Herb&Red Gose",
@@ -15234,12 +15146,12 @@
     "ibu": 4,
     "country": "Україна",
     "volume": 0.5,
-    "lastScrapedAt": 1788130967869
+    "lastScrapedAt": 1788992142725
   },
   {
     "name": "REALIST Reinheitsgebot!",
     "brand": "REALIST",
-    "untappdRating": 3.89,
+    "untappdRating": 3.9,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/06/2о.jpg",
     "flaskerPrice": 119.0,
     "flaskerUrl": "https://flasker.com.ua/product/realist-reinheitsgebot-5-4-0-5l/",
@@ -15247,7 +15159,7 @@
     "ibu": 25,
     "country": "Україна",
     "volume": 0.5,
-    "lastScrapedAt": 1788130967869
+    "lastScrapedAt": 1788992142547
   },
   {
     "name": "VOLTA CHARISMA+1 IPA",
@@ -15273,7 +15185,7 @@
     "ibu": 45,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130968945
+    "lastScrapedAt": 1788992125100
   },
   {
     "name": "Mad Girl Method [6th Anniversary ]",
@@ -15285,7 +15197,7 @@
     "ibu": 22,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130968984
+    "lastScrapedAt": 1788992142726
   },
   {
     "name": "Flasker Cherry Burn",
@@ -15297,7 +15209,7 @@
     "abv": 12.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130969523
+    "lastScrapedAt": 1788992142508
   },
   {
     "name": "Vibrant Pour Mermaid's Pour",
@@ -15332,7 +15244,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130971430
+    "lastScrapedAt": 1788992146221
   },
   {
     "name": "Copper Head Royal Cookie",
@@ -15345,12 +15257,12 @@
     "ibu": 45,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130973302
+    "lastScrapedAt": 1788992146674
   },
   {
     "name": "VOLTA JAMAICA BLUES AIPA",
     "brand": "Volta",
-    "untappdRating": 3.94,
+    "untappdRating": 3.95,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/05/jama.jpg",
     "flaskerPrice": 95.0,
     "flaskerUrl": "https://flasker.com.ua/product/volta-jamaica-blues-aipa-5-1-0-33%d0%bb/",
@@ -15358,7 +15270,7 @@
     "ibu": 48,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130972756
+    "lastScrapedAt": 1788992123741
   },
   {
     "name": "VOLTA Modern Pilsner",
@@ -15383,7 +15295,7 @@
     "abv": 7.2,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130973911
+    "lastScrapedAt": 1788992147460
   },
   {
     "name": "Pastry Mastery Black Cake 9+%",
@@ -15399,14 +15311,14 @@
   {
     "name": "Flasker Банановий Стаут",
     "brand": "Flasker",
-    "untappdRating": 3.94,
+    "untappdRating": 3.95,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/05/банано.jpg",
     "flaskerPrice": 82.0,
     "flaskerUrl": "https://flasker.com.ua/product/flasker-%d0%b1%d0%b0%d0%bd%d0%b0%d0%bd%d0%be%d0%b2%d0%b8%d0%b9-%d1%81%d1%82%d0%b0%d1%83%d1%82-7-330%d0%bc%d0%bb/",
     "abv": 7.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130974756
+    "lastScrapedAt": 1788992148475
   },
   {
     "name": "pH GOURD Pumpkin Sour",
@@ -15418,7 +15330,7 @@
     "abv": 5.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130974659
+    "lastScrapedAt": 1788992148149
   },
   {
     "name": "DIYSNO HIMBEERLIEBE Berliner Weisse",
@@ -15431,7 +15343,7 @@
     "ibu": 5,
     "country": "Україна",
     "volume": 0.5,
-    "lastScrapedAt": 1788130978493
+    "lastScrapedAt": 1788992148443
   },
   {
     "name": "D.Kit: Chili Midnight Stout",
@@ -15444,12 +15356,12 @@
     "ibu": 30,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130976431
+    "lastScrapedAt": 1788992148808
   },
   {
     "name": "Heather House Davy Jones",
     "brand": "Heather House",
-    "untappdRating": 4.01,
+    "untappdRating": 4.04,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/04/davy.jpg",
     "flaskerPrice": 119.0,
     "flaskerUrl": "https://flasker.com.ua/product/davy-jones-heather-house-330ml/",
@@ -15457,12 +15369,12 @@
     "ibu": 30,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130977558
+    "lastScrapedAt": 1788992151396
   },
   {
     "name": "The Lost Philosopher Xmas Eve",
     "brand": "Mad Brew",
-    "untappdRating": 3.9,
+    "untappdRating": 3.91,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2025/12/phil-x-xmas-2026.jpg",
     "flaskerPrice": 119.0,
     "flaskerUrl": "https://flasker.com.ua/product/the-lost-philosopher-xmas-eve-10-2025-330ml/",
@@ -15470,7 +15382,7 @@
     "ibu": 45,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130982838
+    "lastScrapedAt": 1788992151858
   },
   {
     "name": "Moonlit Cherry",
@@ -15482,7 +15394,7 @@
     "abv": 8.4,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130979752
+    "lastScrapedAt": 1788992152674
   },
   {
     "name": "Trappistes Rochefort 8 (2020)",
@@ -15494,7 +15406,7 @@
     "ibu": 22,
     "country": "Бельгія",
     "volume": 0.33,
-    "lastScrapedAt": 1788130980362
+    "lastScrapedAt": 1788992154376
   },
   {
     "name": "Vibrant Coffee IS",
@@ -15518,7 +15430,7 @@
     "abv": 4.2,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130980438
+    "lastScrapedAt": 1788992154056
   },
   {
     "name": "MG'M That's It",
@@ -15530,7 +15442,7 @@
     "abv": 11.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130980744
+    "lastScrapedAt": 1788992154058
   },
   {
     "name": "Robust Portress",
@@ -15543,7 +15455,7 @@
     "ibu": 38,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130982162
+    "lastScrapedAt": 1788992154954
   },
   {
     "name": "VibrantPour Moonlight Debauchery - Pastry IS",
@@ -15567,7 +15479,7 @@
     "abv": 7.6,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130982368
+    "lastScrapedAt": 1788992155302
   },
   {
     "name": "VibrantPour Blackcurrant Gose",
@@ -15580,7 +15492,7 @@
     "ibu": 10,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130982162
+    "lastScrapedAt": 1788992155175
   },
   {
     "name": "Hoppy Hog Winter Cherry",
@@ -15593,7 +15505,7 @@
     "ibu": 5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130982707
+    "lastScrapedAt": 1788992155959
   },
   {
     "name": "Ципа Квасне на Вишні (Berliner Cherry)",
@@ -15618,7 +15530,7 @@
     "abv": 5.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130984891
+    "lastScrapedAt": 1788992158077
   },
   {
     "name": "V.Pour CherryEmber IS",
@@ -15630,7 +15542,7 @@
     "abv": 8.4,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130985594
+    "lastScrapedAt": 1788992157344
   },
   {
     "name": "V.Pour Oak Ember IS",
@@ -15642,7 +15554,7 @@
     "abv": 8.4,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130985651
+    "lastScrapedAt": 1788992158077
   },
   {
     "name": "Гонір Чорний Ліс Chili IS",
@@ -15654,7 +15566,7 @@
     "abv": 13.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130987630
+    "lastScrapedAt": 1788992158350
   },
   {
     "name": "The Bad Beaver! Blossom: Mango, Black Currant, Blackberry, Vanilla & Star Anise",
@@ -15667,7 +15579,7 @@
     "ibu": 7,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130985650
+    "lastScrapedAt": 1788992158899
   },
   {
     "name": "Mad Girl Method",
@@ -15678,7 +15590,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/mad-girl-method-330ml/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130985594
+    "lastScrapedAt": 1788992158429
   },
   {
     "name": "MALLE Belgian Stout",
@@ -15691,7 +15603,7 @@
     "ibu": 27,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130986940
+    "lastScrapedAt": 1788992159490
   },
   {
     "name": "Vibrant Pour Darkside Benediction Quad 0.33",
@@ -15702,7 +15614,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/vibrant-pour-darkside-benediction-quad-10-0-33/",
     "abv": 10.0,
     "country": "Україна",
-    "lastScrapedAt": 1788130987914
+    "lastScrapedAt": 1788992159257
   },
   {
     "name": "MALLE Tripel Mandarina",
@@ -15715,7 +15627,7 @@
     "ibu": 30,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130987788
+    "lastScrapedAt": 1788992160607
   },
   {
     "name": "Mad Girl Stout Cherry",
@@ -15740,18 +15652,18 @@
     "flaskerUrl": "https://flasker.com.ua/product/cappuccino-with-tripple-shot-10-330ml/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130988656
+    "lastScrapedAt": 1788992161541
   },
   {
     "name": "Vibrant Pour Merman's Grip",
     "brand": "Vibrant Pour",
-    "untappdRating": 3.9,
+    "untappdRating": 3.91,
     "imgUrl": "https://flasker.com.ua/wp-content/uploads/2025/07/grip33.jpg",
     "flaskerPrice": 99.0,
     "flaskerUrl": "https://flasker.com.ua/product/vibrant-pour-sailor-tales-12-330ml/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130988182
+    "lastScrapedAt": 1788992160357
   },
   {
     "name": "Vibrant Pour Burton's Rider 0.33",
@@ -15762,7 +15674,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/vibrant-pour-burtons-rider-8-0-33/",
     "abv": 8.0,
     "country": "Україна",
-    "lastScrapedAt": 1788130990483
+    "lastScrapedAt": 1788992163536
   },
   {
     "name": "Philosopher El Kava Doppio",
@@ -15774,7 +15686,7 @@
     "ibu": 50,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130992540
+    "lastScrapedAt": 1788992165177
   },
   {
     "name": "Formula of the Autumn {2024}",
@@ -15786,7 +15698,7 @@
     "abv": 7.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130994315
+    "lastScrapedAt": 1788992167130
   },
   {
     "name": "REBREW Toloka Raspberry Blackcurrant Marshmallow Sour Ale",
@@ -15798,7 +15710,7 @@
     "abv": 7.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130992652
+    "lastScrapedAt": 1788992130759
   },
   {
     "name": "Flasker Syrskald (МАНГО, СМОРОДИНА, МАЛИНА)",
@@ -15822,7 +15734,7 @@
     "abv": 6.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130996391
+    "lastScrapedAt": 1788992170933
   },
   {
     "name": "Berryland: Cuvee Cider Semi Sweet 7-",
@@ -15834,7 +15746,7 @@
     "abv": 7.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130996976
+    "lastScrapedAt": 1788992171304
   },
   {
     "name": "Berryland: Cuvee Quince Brut 7-",
@@ -15846,7 +15758,7 @@
     "abv": 7.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130997073
+    "lastScrapedAt": 1788992171116
   },
   {
     "name": "Formula of the Autumn {2025}",
@@ -15858,7 +15770,7 @@
     "abv": 7.0,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130998595
+    "lastScrapedAt": 1788992170933
   },
   {
     "name": "Ципа Сидр Гуцульський Фермерський",
@@ -15870,7 +15782,7 @@
     "abv": 5.5,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130997806
+    "lastScrapedAt": 1788992172238
   },
   {
     "name": "Vibrant Pour Amber Ritual [Mango Aging] 0.33",
@@ -15882,7 +15794,7 @@
     "abv": 8.0,
     "ibu": 3,
     "country": "Україна",
-    "lastScrapedAt": 1788130998683
+    "lastScrapedAt": 1788992173135
   },
   {
     "name": "pHormula Bretberry",
@@ -15893,7 +15805,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/phormula-bretberry-330ml/",
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130998783
+    "lastScrapedAt": 1788992173125
   },
   {
     "name": "Mad Girl Chernika",
@@ -15906,7 +15818,7 @@
     "ibu": 18,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788130999464
+    "lastScrapedAt": 1788992173862
   },
   {
     "name": "Vibrant Pour Hellfire Jam Chili IS 0.33",
@@ -15917,7 +15829,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/vibrant-pour-hellfire-jam-chili-is-10-0-33/",
     "abv": 10.0,
     "country": "Україна",
-    "lastScrapedAt": 1788131001726
+    "lastScrapedAt": 1788992174588
   },
   {
     "name": "De Cam Abrikoos Rabarber (2018)",
@@ -15929,7 +15841,7 @@
     "abv": 6.0,
     "country": "Бельгія",
     "volume": 0.75,
-    "lastScrapedAt": 1788131001328
+    "lastScrapedAt": 1788992175279
   },
   {
     "name": "Vibrant Pour Smoked IS",
@@ -15942,7 +15854,7 @@
     "ibu": 30,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788131001457
+    "lastScrapedAt": 1788992175926
   },
   {
     "name": "Гонір Wild Tripel",
@@ -15955,7 +15867,7 @@
     "ibu": 30,
     "country": "Україна",
     "volume": 0.33,
-    "lastScrapedAt": 1788131001726
+    "lastScrapedAt": 1788992176025
   },
   {
     "name": "Mikkeller Beer Geek Breakfast 2017",
@@ -15966,7 +15878,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/mikkeller-beer-geek-breakfast-500-ml/",
     "abv": 7.5,
     "volume": 0.5,
-    "lastScrapedAt": 1788131004462
+    "lastScrapedAt": 1788992179351
   },
   {
     "name": "Mikkeller Oregon Fruit Series: Spontan Plum",
@@ -15977,7 +15889,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/mikkeller-oregon-fruit-series-spontan-plum-375-ml/",
     "abv": 6.3,
     "volume": 0.375,
-    "lastScrapedAt": 1788131004579
+    "lastScrapedAt": 1788992178786
   },
   {
     "name": "Humble Forager: Warming Hut Memoirs (банка)",
@@ -15988,7 +15900,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/humble-forager-warming-hut-memoirs-473-ml-%d0%b1%d0%b0%d0%bd%d0%ba%d0%b0/",
     "abv": 12.0,
     "volume": 0.473,
-    "lastScrapedAt": 1788131004337
+    "lastScrapedAt": 1788992179559
   },
   {
     "name": "Mikkeller Beer Geek Flat White 2017",
@@ -15999,7 +15911,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/mikkeller-beer-geek-flat-white-330-ml/",
     "abv": 7.5,
     "volume": 0.33,
-    "lastScrapedAt": 1788131005134
+    "lastScrapedAt": 1788992179316
   },
   {
     "name": "EvilTwinImperial Doughnut Break (2017)",
@@ -16010,7 +15922,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/evil-twin-imperial-doughnut-break-473-ml/",
     "abv": 11.5,
     "volume": 0.473,
-    "lastScrapedAt": 1788131005342
+    "lastScrapedAt": 1788992179645
   },
   {
     "name": "Crooked Stave L`Brett D`Blackberry 2013",
@@ -16021,7 +15933,7 @@
     "flaskerUrl": "https://flasker.com.ua/product/crooked-stave-lbrett-dblackberry-2013/",
     "abv": 6.0,
     "volume": 0.375,
-    "lastScrapedAt": 1788131005342
+    "lastScrapedAt": 1788992179480
   },
   {
     "name": "ARTEZAN Château 2021 Sour",
@@ -16033,6 +15945,262 @@
     "abv": 7.2,
     "country": "Польща",
     "volume": 0.375,
-    "lastScrapedAt": 1788131005499
+    "lastScrapedAt": 1788992179942
+  },
+  {
+    "name": "UMA TOUCH",
+    "brand": "UMA Brew",
+    "untappdRating": 4.08,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/touch.jpg",
+    "flaskerPrice": 105.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-touch-6-330ml/",
+    "style": "Fruited Sour / Passion Fruit & Peach Sour / Smoothie Fruit Beer",
+    "abv": 6.0,
+    "ibu": 10,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989626511
+  },
+  {
+    "name": "UMA РУДИЙ БЕШКЕТНИК",
+    "brand": "UMA Brew",
+    "untappdRating": 4.02,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/rudy.jpg",
+    "flaskerPrice": 105.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-%d1%80%d1%83%d0%b4%d0%b8%d0%b9-%d0%b1%d0%b5%d1%88%d0%ba%d0%b5%d1%82%d0%bd%d0%b8%d0%ba-6-330ml/",
+    "style": "Smoothie Sour / Fruited Sour / Pastry Fruit Sour",
+    "abv": 6.0,
+    "ibu": 10,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989627317
+  },
+  {
+    "name": "UMA COCO WOOF (Кокосовий гав)",
+    "brand": "UMA Brew",
+    "untappdRating": 3.99,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/coco.jpg",
+    "flaskerPrice": 99.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-coco-woof-%d0%ba%d0%be%d0%ba%d0%be%d1%81%d0%be%d0%b2%d0%b8%d0%b9-%d0%b3%d0%b0%d0%b2-5-330ml/",
+    "style": "Coconut Milk Stout / Double Milk Stout /",
+    "abv": 8.0,
+    "ibu": 24,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989623175
+  },
+  {
+    "name": "UMA The Trace (СЛІД) IPA",
+    "brand": "UMA Brew",
+    "untappdRating": 3.94,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/слід.jpg",
+    "flaskerPrice": 85.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-the-trace-%d1%81%d0%bb%d1%96%d0%b4-ipa-5-330ml/",
+    "style": "American IPA / West Coast IPA / Old-school IPA",
+    "abv": 5.0,
+    "ibu": 40,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989624066
+  },
+  {
+    "name": "UMA BAMBOO NEIPA",
+    "brand": "UMA Brew",
+    "untappdRating": 3.96,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/bamboo.jpg",
+    "flaskerPrice": 89.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-bamboo-neipa-5-330ml/",
+    "style": "NEIPA / Hazy IPA",
+    "abv": 5.0,
+    "ibu": 22,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989624513
+  },
+  {
+    "name": "UMA Ягідний Кусь",
+    "brand": "UMA Brew",
+    "untappdRating": 4.04,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/кусь.jpg",
+    "flaskerPrice": 99.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-brew-%d1%8f%d0%b3%d1%96%d0%b4%d0%bd%d0%b8%d0%b9-%d0%ba%d1%83%d1%81%d1%8c-6-330ml/",
+    "style": "Berry Sour / Fruited Sour / Pastry Berry Sour",
+    "abv": 5.5,
+    "ibu": 10,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989623645
+  },
+  {
+    "name": "UMA МУР МУР",
+    "brand": "UMA Brew",
+    "untappdRating": 3.93,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/мур.jpg",
+    "flaskerPrice": 99.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-brew-%d0%bc%d1%83%d1%80-%d0%bc%d1%83%d1%80-6-330ml/",
+    "style": "Raspberry Sour / Berry Sour / Fruited Sour",
+    "abv": 6.0,
+    "ibu": 6,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989627317
+  },
+  {
+    "name": "UMA Sheriff",
+    "brand": "UMA Brew",
+    "untappdRating": 3.94,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/09/seriff.jpg",
+    "flaskerPrice": 99.0,
+    "flaskerUrl": "https://flasker.com.ua/product/uma-brew-sheriff-5-330ml/",
+    "style": "Tomato Gose / Smoked Tomato Gose",
+    "abv": 5.0,
+    "ibu": 10,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989623158
+  },
+  {
+    "name": "REBREW ЧОРТОПОЛОХ WEIZENBOCK",
+    "brand": "REBREW",
+    "untappdRating": 3.94,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/03/чортопо.jpg",
+    "flaskerPrice": 115.0,
+    "flaskerUrl": "https://flasker.com.ua/product/rebrew-%d1%87%d0%be%d1%80%d1%82%d0%be%d0%bf%d0%be%d0%bb%d0%be%d1%85-weizenbock-7-330ml/",
+    "abv": 7.0,
+    "ibu": 15,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788992120697
+  },
+  {
+    "name": "REBREW Pomi D'Oro Tomato Gose: Kimchi Edition",
+    "brand": "REBREW",
+    "untappdRating": 4.12,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2025/02/6.jpg",
+    "flaskerPrice": 125.0,
+    "flaskerUrl": "https://flasker.com.ua/product/rebrew-pomi-doro-tomato-gose-kimchi-edition-5-330ml/",
+    "style": "Tomato Gose / Kimchi Tomato Gose / Spicy Savory Sour",
+    "abv": 5.0,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989625050
+  },
+  {
+    "name": "VibrantPour - 3♥ (Трійка Чирв) 330мл",
+    "brand": "Vibrant Pour",
+    "untappdRating": 3.8,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/07/3ka.jpg",
+    "flaskerPrice": 129.0,
+    "flaskerUrl": "https://flasker.com.ua/product/%d0%bf%d1%80%d0%b5%d0%b4%d1%80%d0%b5%d0%bb%d1%96%d0%b7-3%e2%99%a5-%d1%82%d1%80%d1%96%d0%b9%d0%ba%d0%b0-%d1%87%d0%b5%d1%80%d0%b2-4-330%d0%bc%d0%bb/",
+    "abv": 4.0,
+    "country": "Україна",
+    "lastScrapedAt": 1788992121526
+  },
+  {
+    "name": "VibrantPour КРАКЕН з Васабі Gose",
+    "brand": "Vibrant Pour",
+    "untappdRating": 3.89,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/07/kraken-wasabi.jpg",
+    "flaskerPrice": 139.0,
+    "flaskerUrl": "https://flasker.com.ua/product/vibrantpour-%d0%ba%d1%80%d0%b0%d0%ba%d0%b5%d0%bd-%d0%b7-%d0%b2%d0%b0%d1%81%d0%b0%d0%b1%d1%96-gose-4-5/",
+    "abv": 4.0,
+    "country": "Україна",
+    "lastScrapedAt": 1788992120675
+  },
+  {
+    "name": "VibrantPour Сало з часником та перцем Gose",
+    "brand": "Vibrant Pour",
+    "untappdRating": 4.08,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2024/12/faerie-фласкер-рамка-6.jpg",
+    "flaskerPrice": 129.0,
+    "flaskerUrl": "https://flasker.com.ua/product/vibrantpour-%d1%81%d0%b0%d0%bb%d0%be-%d0%b7-%d1%87%d0%b0%d1%81%d0%bd%d0%b8%d0%ba%d0%be%d0%bc-%d1%82%d0%b0-%d0%bf%d0%b5%d1%80%d1%86%d0%b5%d0%bc-gose-4-5/",
+    "style": "Spicy Savory Ale / Tomato-Garlic Chili Beer",
+    "abv": 4.5,
+    "country": "Україна",
+    "lastScrapedAt": 1788989626075
+  },
+  {
+    "name": "Vibrant Pour IS",
+    "brand": "Vibrant Pour",
+    "untappdRating": 3.84,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2024/12/faerie-фласкер-рамка-22.jpg",
+    "flaskerPrice": 129.0,
+    "flaskerUrl": "https://flasker.com.ua/product/vibrant-pour-is-8-4-330ml/",
+    "abv": 8.4,
+    "ibu": 65,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788992125568
+  },
+  {
+    "name": "VibrantPour Real Yogurt Ale: Blueberry, Banana, Orange",
+    "brand": "Vibrant Pour",
+    "untappdRating": 4.09,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/08/blue11.jpg",
+    "flaskerPrice": 175.0,
+    "flaskerUrl": "https://flasker.com.ua/product/vibrantpour-real-yogurt-ale-blueberry-banana-orange-6-5/",
+    "abv": 6.5,
+    "country": "Україна",
+    "lastScrapedAt": 1788992127509
+  },
+  {
+    "name": "Copper Head Barley Wine 2025",
+    "brand": "Copper Head",
+    "untappdRating": 3.94,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2025/05/barleywine32.jpg",
+    "flaskerPrice": 110.0,
+    "flaskerUrl": "https://flasker.com.ua/product/copper-head-barley-wine-2025-10-7-0-33l/",
+    "abv": 10.7,
+    "ibu": 60,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788992128454
+  },
+  {
+    "name": "Heather House Rawhead Silk Road",
+    "brand": "Heather House",
+    "untappdRating": 4.0,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2026/08/rawhead2о.jpg",
+    "flaskerPrice": 125.0,
+    "flaskerUrl": "https://flasker.com.ua/product/heather-house-rawhead-silk-road-4-5-330ml/",
+    "style": "Tomato Gose",
+    "abv": 4.5,
+    "ibu": 5,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788989633558
+  },
+  {
+    "name": "Vibrant IS",
+    "brand": "Vibrant Pour",
+    "untappdRating": 3.84,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2024/12/faerie-фласкер-рамка-22.jpg",
+    "flaskerPrice": 95.0,
+    "flaskerUrl": "https://flasker.com.ua/product/vibrant-is-9-330ml/",
+    "ibu": 65,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788992130755
+  },
+  {
+    "name": "Bendera ya Uhuru DIPA",
+    "brand": "Mad Brew",
+    "untappdRating": 3.92,
+    "imgUrl": "https://flasker.com.ua/wp-content/uploads/2024/10/qq2.jpg",
+    "flaskerPrice": 59.0,
+    "flaskerUrl": "https://flasker.com.ua/product/bendera-ya-uhuru-dipa-7-8-330ml/",
+    "abv": 7.8,
+    "country": "Україна",
+    "volume": 0.33,
+    "lastScrapedAt": 1788992134009
+  },
+  {
+    "name": "Christmas Ale",
+    "brand": "Brouwerij St.Bernardus",
+    "untappdRating": 3.853,
+    "style": "Winter Ale",
+    "abv": 10.0,
+    "ibu": 20,
+    "untappdUrl": "https://untappd.com/b/brouwerij-st-bernardus-christmas-ale/8121"
   }
 ]
