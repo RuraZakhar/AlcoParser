@@ -115,6 +115,16 @@ public class RumHowlerParser implements RumParser {
     // Package-private + static (no instance state used) so RumHowlerFileLoader can
     // reuse this exact exact-match-then-fuzzy-match path instead of duplicating it.
     static boolean mergeIntoCollection(Set<RumProduct> rumSet, RumProduct incomingRum) {
+        // Confirmed real corruption: a scrape once split "Flor De Caña Centenario 21..." into
+        // two entries at some point mid-name -- "F" and "lor De Caña..." -- sharing the same
+        // productUrl. The lone-letter "F" entry then fuzzy-matched an unrelated Silpo product
+        // (short strings score misleadingly high on Levenshtein similarity). Reject degenerate
+        // names outright rather than letting them anywhere near fuzzy matching.
+        String incomingName = incomingRum.getName();
+        if (incomingName == null || incomingName.trim().length() <= 2) {
+            return false;
+        }
+
         for (RumProduct existingRum : rumSet) {
             if (existingRum.equals(incomingRum)) {
                 existingRum.mergeFrom(incomingRum);

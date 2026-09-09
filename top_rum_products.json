@@ -61,6 +61,7 @@
     "age": 5.0,
     "region": "Колумбія",
     "category": "rum",
+    "price": 899.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/dictador-cafe-100-month-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Dictador 100 Months Aged Rum Cafe",
@@ -86,6 +87,7 @@
     "age": 5.0,
     "region": "Колумбія",
     "category": "rum",
+    "price": 1222.98,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/dictador-orange-100-month-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Dictador 100 Months Aged Rum Orange",
@@ -167,11 +169,12 @@
     "age": 5.0,
     "region": "Куба",
     "category": "rum",
+    "price": 599.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/white-rums/rum-review-santiago-de-cuba-ron-carta-blanca/",
     "silpoMatch": {
       "silpo_title": "Ром Santiago de Cuba Carta Blanca",
-      "similarity_score": 0.8787878787878788,
-      "price": 474.0,
+      "similarity_score": 1.0,
+      "price": 599.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santiago-de-cuba-carta-blanca-504544"
     },
@@ -196,11 +199,12 @@
     "age": 5.0,
     "region": "Домініканська Рес-ка",
     "category": "rum",
+    "price": 649.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/white-rums/review-matusalem-platino/",
     "silpoMatch": {
       "silpo_title": "Ром Matusalem Platino",
       "similarity_score": 1.0,
-      "price": 549.0,
+      "price": 649.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-matusalem-platino-887418"
     },
@@ -304,44 +308,17 @@
     ]
   },
   {
-    "name": "Ром Santiago de Cuba Carta Blanca",
-    "abv": 38.0,
-    "age": 5.0,
-    "region": "Куба",
-    "brand": "Santiago de Cuba",
-    "category": "rum",
-    "price": 474.0,
-    "volumeWeight": "0,7л",
-    "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/cb6391ef-f776-437d-ad05-50baf8e5c885.png",
-    "productUrl": "https://silpo.ua/product/rom-santiago-de-cuba-carta-blanca-504544",
-    "silpoMatch": {
-      "silpo_title": "Ром Santiago de Cuba Carta Blanca",
-      "similarity_score": 1.0,
-      "price": 474.0,
-      "in_stock": true,
-      "url": "https://silpo.ua/product/rom-santiago-de-cuba-carta-blanca-504544"
-    },
-    "sourceUrls": {
-      "Silpo": "https://silpo.ua/product/rom-santiago-de-cuba-carta-blanca-504544"
-    },
-    "ratings": [
-      {
-        "provider": "Silpo",
-        "rating": 10.0
-      }
-    ]
-  },
-  {
     "name": "Captain Morgan Black Spiced Rum",
     "abv": 40.0,
     "age": 5.0,
     "region": "Ямайка",
     "category": "rum",
+    "price": 664.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/flavoured-spiced-rums/captain-morgan-black-spiced-rum/",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Captain Morgan Black Spiced",
       "similarity_score": 1.0,
-      "price": 859.0,
+      "price": 664.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-black-spiced-598063"
     },
@@ -451,14 +428,14 @@
     "region": "Ямайка",
     "brand": "Smith&Cross",
     "category": "rum",
-    "price": 1099.0,
+    "price": 1499.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/d281646d-5d83-40a6-919e-bd1ac28cc519.png",
     "productUrl": "https://silpo.ua/product/rom-smith-cross-864070",
     "silpoMatch": {
       "silpo_title": "Ром Smith & Cross",
       "similarity_score": 1.0,
-      "price": 1099.0,
+      "price": 1499.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-smith-cross-864070"
     },
@@ -479,14 +456,14 @@
     "region": "Тринідад і Тобаго",
     "brand": "Botafogo",
     "category": "rum",
-    "price": 939.0,
+    "price": 999.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/9f6205e1-af1b-4a5d-9d6a-ca5800878b24.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-botafogo-spiced-812700",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Botafogo Spiced",
       "similarity_score": 1.0,
-      "price": 939.0,
+      "price": 999.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-botafogo-spiced-812700"
     },
@@ -544,6 +521,20 @@
     ]
   },
   {
+    "name": "Flor De Caña Centenario 21 Commemorative Edition",
+    "category": "rum",
+    "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/flor-de-cana-centenario-21-commemorative-edition/",
+    "sourceUrls": {
+      "The Rum Howler Blog": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/flor-de-cana-centenario-21-commemorative-edition/"
+    },
+    "ratings": [
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.75
+      }
+    ]
+  },
+  {
     "name": "Dictador XO Insolent",
     "description": "Dictador XO Insolent rum - rated #2046 of 15795 rums:  see 183 reviews, photos, other Dictador rums, and similar Aged rums from Colombia",
     "abv": 40.0,
@@ -552,6 +543,7 @@
     "brand": "Dictador",
     "type": "Aged",
     "category": "rum",
+    "price": 3999.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/306/medium_dictador-xo-insolent.webp?v=1741230422",
     "productUrl": "https://rumratings.com/rum/306-dictador-xo-insolent",
     "silpoMatch": {
@@ -573,12 +565,12 @@
     "lastScrapedAt": 1788127553211,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.7
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.3
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.7
       }
     ]
   },
@@ -859,11 +851,12 @@
     "age": 5.0,
     "region": "Іспанія",
     "category": "rum",
+    "price": 589.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/lambs-spiced-rum/",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Lamb's Spiced",
       "similarity_score": 1.0,
-      "price": 599.0,
+      "price": 589.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-lamb-s-spiced-884454"
     },
@@ -889,14 +882,14 @@
     "region": "Барбадос",
     "brand": "Bumbu",
     "category": "rum",
-    "price": 1899.0,
+    "price": 1549.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/4dbb9fad-85ee-4c72-b06d-bf54bb827e48.png",
     "productUrl": "https://silpo.ua/product/rom-bumbu-original-871092",
     "silpoMatch": {
       "silpo_title": "Ром Bumbu Original",
       "similarity_score": 1.0,
-      "price": 1899.0,
+      "price": 1549.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-bumbu-original-871092"
     },
@@ -917,14 +910,14 @@
     "region": "Велика Британія",
     "brand": "Captain Morgan",
     "category": "rum",
-    "price": 699.0,
+    "price": 569.0,
     "volumeWeight": "шт",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/c7ca8098-02e3-45bc-9fde-04d44f164319.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-spiced-gold-0-7-l-sklianka-929136",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Captain Morgan Spiced Gold 0,7 л + склянка",
       "similarity_score": 1.0,
-      "price": 699.0,
+      "price": 569.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-spiced-gold-0-7-l-sklianka-929136"
     },
@@ -973,14 +966,14 @@
     "region": "Сент-Люсія",
     "brand": "Chairman's Reserve",
     "category": "rum",
-    "price": 799.0,
+    "price": 1199.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/07b135a3-9d00-4d9e-9d7b-db34d4110df7.png",
     "productUrl": "https://silpo.ua/product/alkogolnyi-napii-na-osnovi-romu-chairman-s-reserve-spiced-original-704964",
     "silpoMatch": {
       "silpo_title": "Алкогольний напій на основі рому Chairman's Reserve Spiced Original",
       "similarity_score": 1.0,
-      "price": 799.0,
+      "price": 1199.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/alkogolnyi-napii-na-osnovi-romu-chairman-s-reserve-spiced-original-704964"
     },
@@ -1001,14 +994,14 @@
     "region": "Франція",
     "brand": "Plantation",
     "category": "rum",
-    "price": 979.0,
+    "price": 949.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/07ea052e-fbf7-433a-aa1b-a70a680f3af7.png",
     "productUrl": "https://silpo.ua/product/rom-plantation-ferrand-original-dark-861554",
     "silpoMatch": {
       "silpo_title": "Ром Plantation Ferrand Original Dark",
       "similarity_score": 1.0,
-      "price": 979.0,
+      "price": 949.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-plantation-ferrand-original-dark-861554"
     },
@@ -1071,12 +1064,12 @@
     "lastScrapedAt": 1788130083739,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.35
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.4
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.35
       }
     ]
   },
@@ -1102,12 +1095,12 @@
     "lastScrapedAt": 1788130105829,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.35
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.3
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.35
       }
     ]
   },
@@ -1207,12 +1200,12 @@
     "lastScrapedAt": 1788130093762,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.3
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.4
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.3
       }
     ]
   },
@@ -1273,11 +1266,12 @@
     "brand": "Plantation",
     "type": "Aged",
     "category": "rum",
+    "price": 1999.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/1181/medium_Plantation_Gran_Anejo_Guatamala.webp?v=1741230693",
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/plantation-guatemala-gran-anejo/",
     "silpoMatch": {
       "silpo_title": "Ром Planteray Guatemala Gran Anejo в коробці",
-      "similarity_score": 0.8387096774193549,
+      "similarity_score": 1.0,
       "price": 1999.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-planteray-guatemala-gran-anejo-v-korobtsi-1003937"
@@ -1294,12 +1288,12 @@
     "lastScrapedAt": 1788130129850,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.25
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.25
       }
     ]
   },
@@ -1353,12 +1347,12 @@
     "lastScrapedAt": 1788127609270,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.25
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.25
       }
     ]
   },
@@ -1443,12 +1437,13 @@
     "brand": "Ron Cristobal",
     "type": "Aged",
     "category": "rum",
+    "price": 2199.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/9015/medium_ron-cristobal-nina-12-year.webp?v=1741232240",
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/ron-cristobal-nina/",
     "silpoMatch": {
       "silpo_title": "Ром Ron Cristobal Nina 8-12 років",
       "similarity_score": 1.0,
-      "price": 1399.0,
+      "price": 2199.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-ron-cristobal-nina-8-12-rokiv-917124"
     },
@@ -1464,12 +1459,12 @@
     "lastScrapedAt": 1788130125986,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.2
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.2
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.2
       }
     ]
   },
@@ -1508,12 +1503,12 @@
     "lastScrapedAt": 1788127725337,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.2
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.9
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.2
       }
     ]
   },
@@ -1694,14 +1689,14 @@
     "region": "Італія",
     "brand": "Oakheart",
     "category": "rum",
-    "price": 799.0,
+    "price": 449.0,
     "volumeWeight": "1л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/fb127f8e-2a80-49b3-9400-706b7f7db78e.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-oakheart-original-35-532439",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Oakheart Original 35%",
       "similarity_score": 1.0,
-      "price": 799.0,
+      "price": 449.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-oakheart-original-35-532439"
     },
@@ -1750,14 +1745,14 @@
     "region": "Велика Британія",
     "brand": "Captain Morgan",
     "category": "rum",
-    "price": 1199.0,
+    "price": 1299.0,
     "volumeWeight": "1л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/13cb8f41-5461-43a6-ad24-3c5aa99013a7.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-black-spiced-830173",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Captain Morgan Black Spiced",
       "similarity_score": 1.0,
-      "price": 1199.0,
+      "price": 1299.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-black-spiced-830173"
     },
@@ -1791,6 +1786,7 @@
     "age": 11.0,
     "region": "Нікарагуа",
     "category": "rum",
+    "price": 1290.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/flor-de-cana-12-centenario/",
     "silpoMatch": {
       "silpo_title": "Ром Flor de Cana Centenario 12 років в коробці",
@@ -1816,6 +1812,7 @@
     "age": 20.0,
     "region": "Колумбія",
     "category": "rum",
+    "price": 3299.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/dictador-20-year-solera-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Dictador 20 Years Solera System Rum",
@@ -1929,6 +1926,7 @@
     "brand": "Dictador",
     "type": "Aged",
     "category": "rum",
+    "price": 2174.25,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/307/medium_dictador-xo-perpetual.webp?v=1741230422",
     "productUrl": "https://rumratings.com/rum/307-dictador-xo-perpetual",
     "silpoMatch": {
@@ -1950,12 +1948,12 @@
     "lastScrapedAt": 1788127607205,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.1
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.1
       }
     ]
   },
@@ -1982,12 +1980,13 @@
     "brand": "Havana Club",
     "type": "Aged",
     "category": "rum",
+    "price": 1999.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/442/medium_Havana_Club_Selecci_n_de_Maestros_rum.webp?v=1741230460",
     "productUrl": "https://rumratings.com/rum/442-havana-club-seleccion-de-maestros",
     "silpoMatch": {
       "silpo_title": "Ром Havana Club Seleccion de Maestros в коробці",
       "similarity_score": 1.0,
-      "price": 2299.0,
+      "price": 1999.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-havana-club-seleccion-de-maestros-v-korobtsi-775217"
     },
@@ -2003,12 +2002,12 @@
     "lastScrapedAt": 1788127947498,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.1
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.5
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.1
       }
     ]
   },
@@ -2186,12 +2185,13 @@
     "brand": "Chairman’s Reserve",
     "type": "Aged",
     "category": "rum",
+    "price": 999.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/7161/medium_chairman-s-reserve-1931-6-12-years.webp?v=1741231884",
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/chairmans-reserve/",
     "silpoMatch": {
       "silpo_title": "Ром Chairman's Reserve Original Rum",
       "similarity_score": 1.0,
-      "price": 799.0,
+      "price": 999.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-chairman-s-reserve-original-rum-704963"
     },
@@ -2211,12 +2211,12 @@
         "rating": 8.6
       },
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.05
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.05
       }
     ]
   },
@@ -2270,12 +2270,12 @@
     "lastScrapedAt": 1788130011749,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.05
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.2
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.05
       }
     ]
   },
@@ -2313,12 +2313,12 @@
     "lastScrapedAt": 1788127521130,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.05
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.4
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.05
       }
     ]
   },
@@ -2416,12 +2416,12 @@
     "lastScrapedAt": 1788130153848,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.0
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.0
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.0
       }
     ]
   },
@@ -2446,12 +2446,12 @@
     "lastScrapedAt": 1788130137890,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.0
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.0
       }
     ]
   },
@@ -2506,12 +2506,12 @@
     "lastScrapedAt": 1788130003792,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.0
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.3
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 9.0
       }
     ]
   },
@@ -2520,6 +2520,7 @@
     "abv": 40.0,
     "region": "Панама",
     "category": "rum",
+    "price": 529.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/abuelo-anejo-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Abuelo Anejo",
@@ -2730,14 +2731,14 @@
     "region": "Велика Британія",
     "brand": "Bush Rum",
     "category": "rum",
-    "price": 629.0,
+    "price": 899.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/fd1350fe-1bfe-4721-8ddf-833e798f1aa4.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-bush-rum-mango-864069",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Bush Rum Mango",
       "similarity_score": 1.0,
-      "price": 629.0,
+      "price": 899.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-bush-rum-mango-864069"
     },
@@ -2853,11 +2854,12 @@
     "age": 5.0,
     "region": "Ямайка",
     "category": "rum",
+    "price": 1029.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/review-appleton-estate-reserve-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Appleton Estate Reserve ямайський 8 років",
       "similarity_score": 1.0,
-      "price": 1299.0,
+      "price": 1029.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-appleton-estate-reserve-iamaiskyi-8-rokiv-926818"
     },
@@ -3233,12 +3235,13 @@
     "brand": "Admiral Rodney",
     "type": "Aged",
     "category": "rum",
+    "price": 1799.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/6466/medium_admiral-rodney-hms-princessa.webp?v=1741231646",
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/admiral-rodney-hms-princessa/",
     "silpoMatch": {
       "silpo_title": "Ром Admiral Rodney HMS Princessa",
       "similarity_score": 1.0,
-      "price": 1999.0,
+      "price": 1799.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-admiral-rodney-hms-princessa-933209"
     },
@@ -3254,12 +3257,12 @@
     "lastScrapedAt": 1788130142217,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.85
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.0
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.85
       }
     ]
   },
@@ -3299,12 +3302,12 @@
     "lastScrapedAt": 1788130071776,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.85
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.6
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.85
       }
     ]
   },
@@ -3390,12 +3393,12 @@
     "lastScrapedAt": 1788130136113,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.8
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.8
       }
     ]
   },
@@ -3522,12 +3525,12 @@
     "lastScrapedAt": 1788127911498,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.8
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.5
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.8
       }
     ]
   },
@@ -3794,12 +3797,12 @@
     "lastScrapedAt": 1788130140003,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.75
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.75
       }
     ]
   },
@@ -3983,12 +3986,12 @@
     "lastScrapedAt": 1788130115879,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.7
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.2
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.7
       }
     ]
   },
@@ -4058,12 +4061,12 @@
     "lastScrapedAt": 1788130117947,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.7
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.2
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.7
       }
     ]
   },
@@ -4193,12 +4196,13 @@
     "brand": "Abuelo",
     "type": "Aged",
     "category": "rum",
+    "price": 9099.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/738/medium_abuelo-centuria.webp?v=1741230553",
     "productUrl": "https://rumratings.com/rum/738-abuelo-centuria",
     "silpoMatch": {
       "silpo_title": "Ром Abuelo Centuria",
       "similarity_score": 1.0,
-      "price": 5999.0,
+      "price": 9099.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-abuelo-centuria-982837"
     },
@@ -4488,12 +4492,12 @@
     "lastScrapedAt": 1788130123945,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.6
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.2
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.6
       }
     ]
   },
@@ -4617,12 +4621,12 @@
     "lastScrapedAt": 1788130091755,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.6
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.4
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.6
       }
     ]
   },
@@ -4969,14 +4973,14 @@
     "region": "Куба",
     "brand": "Santiago de Cuba",
     "category": "rum",
-    "price": 924.0,
+    "price": 1199.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/94251be0-33ef-490b-a7cd-bece155942a4.png",
     "productUrl": "https://silpo.ua/product/rom-santiago-de-cuba-anejo-8-rokiv-923555",
     "silpoMatch": {
       "silpo_title": "Ром Santiago de Cuba Anejo 8 років",
       "similarity_score": 1.0,
-      "price": 924.0,
+      "price": 1199.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santiago-de-cuba-anejo-8-rokiv-923555"
     },
@@ -5025,47 +5029,19 @@
     "region": "Іспанія",
     "brand": "Cayo Grande Club",
     "category": "rum",
-    "price": 379.0,
+    "price": 399.0,
     "volumeWeight": "1л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/9d8cf5f7-f979-4065-8653-fe521f8445e8.png",
     "productUrl": "https://silpo.ua/product/rom-cayo-grande-blanco-440693",
     "silpoMatch": {
       "silpo_title": "Ром Cayo Grande Blanco",
       "similarity_score": 1.0,
-      "price": 379.0,
+      "price": 399.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-cayo-grande-blanco-440693"
     },
     "sourceUrls": {
       "Silpo": "https://silpo.ua/product/rom-cayo-grande-blanco-440693"
-    },
-    "ratings": [
-      {
-        "provider": "Silpo",
-        "rating": 8.6
-      }
-    ]
-  },
-  {
-    "name": "Ром Chairman's Reserve Original Rum",
-    "abv": 40.0,
-    "age": 5.0,
-    "region": "Сент-Люсія",
-    "brand": "Chairman's Reserve",
-    "category": "rum",
-    "price": 799.0,
-    "volumeWeight": "0,7л",
-    "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/30867f92-bd31-4855-b1ad-8632ef25648b.png",
-    "productUrl": "https://silpo.ua/product/rom-chairman-s-reserve-original-rum-704963",
-    "silpoMatch": {
-      "silpo_title": "Ром Chairman's Reserve Original Rum",
-      "similarity_score": 1.0,
-      "price": 799.0,
-      "in_stock": true,
-      "url": "https://silpo.ua/product/rom-chairman-s-reserve-original-rum-704963"
-    },
-    "sourceUrls": {
-      "Silpo": "https://silpo.ua/product/rom-chairman-s-reserve-original-rum-704963"
     },
     "ratings": [
       {
@@ -5195,6 +5171,7 @@
     "brand": "Diplomatico",
     "type": "Aged",
     "category": "rum",
+    "price": 2299.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/316/medium_diplomatico-reserva-exclusiva.webp?v=1741230424",
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/diplomatico-reserva/",
     "silpoMatch": {
@@ -5216,12 +5193,12 @@
     "lastScrapedAt": 1788130047738,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.5
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.9
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.5
       }
     ]
   },
@@ -5272,11 +5249,12 @@
     "abv": 75.5,
     "region": "Бермудські о-ви",
     "category": "rum",
+    "price": 1659.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums-n-to-z/goslings-black-seal-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Gosling's Black Seal 151 Bermuda Rum",
       "similarity_score": 1.0,
-      "price": 1549.0,
+      "price": 1659.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-gosling-s-black-seal-151-bermuda-rum-937507"
     },
@@ -5297,11 +5275,12 @@
     "age": 5.0,
     "region": "Велика Британія",
     "category": "rum",
+    "price": 1599.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/pussers-blue-label-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Pusser's Rum Blue Label",
       "similarity_score": 1.0,
-      "price": 1090.0,
+      "price": 1599.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-pusser-s-rum-blue-label-871951"
     },
@@ -5394,12 +5373,12 @@
     "lastScrapedAt": 1788130079807,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.5
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.5
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.5
       }
     ]
   },
@@ -5496,12 +5475,12 @@
     "lastScrapedAt": 1788130088127,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.5
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.4
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.5
       }
     ]
   },
@@ -5526,12 +5505,12 @@
     "lastScrapedAt": 1788127466996,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.25
-      },
-      {
         "provider": "RumRatings",
         "rating": 8.5
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.25
       }
     ]
   },
@@ -5714,6 +5693,20 @@
     ]
   },
   {
+    "name": "LMD Spiced Rum Flavoured Alcohol Beverage",
+    "category": "rum",
+    "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/lmd-spiced-rum-flavoured-alcohol-beverage/",
+    "sourceUrls": {
+      "The Rum Howler Blog": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/lmd-spiced-rum-flavoured-alcohol-beverage/"
+    },
+    "ratings": [
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.5
+      }
+    ]
+  },
+  {
     "name": "Brugal Especial Extra Dry Rum",
     "category": "rum",
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/white-rums/brugal-especial-extra-dry/",
@@ -5748,12 +5741,12 @@
     "lastScrapedAt": 1788128283571,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.45
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.45
       }
     ]
   },
@@ -5847,11 +5840,12 @@
     "age": 5.0,
     "region": "Венесуела",
     "category": "rum",
+    "price": 1399.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/ron-carupano-anejo/",
     "silpoMatch": {
       "silpo_title": "Ром Carupano Reserva Especial Anejo 6 років",
       "similarity_score": 1.0,
-      "price": 999.0,
+      "price": 1399.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-carupano-reserva-especial-anejo-6-rokiv-927856"
     },
@@ -5985,6 +5979,7 @@
     "age": 5.0,
     "region": "Гайана",
     "category": "rum",
+    "price": 2199.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/pussers-spiced-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Pusser's Rum Gunpowder Spiced",
@@ -6039,12 +6034,12 @@
     "lastScrapedAt": 1788128307654,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.4
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.0
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.4
       }
     ]
   },
@@ -6111,11 +6106,12 @@
     "abv": 40.0,
     "region": "Панама",
     "category": "rum",
+    "price": 1509.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/ron-abuelo-12-year-old/",
     "silpoMatch": {
       "silpo_title": "Ром Abuelo 12 years old",
-      "similarity_score": 0.8421052631578947,
-      "price": 1690.0,
+      "similarity_score": 1.0,
+      "price": 1509.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-abuelo-12-years-old-852641"
     },
@@ -6512,14 +6508,14 @@
     "region": "Іспанія",
     "brand": "Cayo Grande Club",
     "category": "rum",
-    "price": 399.0,
+    "price": 599.0,
     "volumeWeight": "1л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/9cc0ce01-2f2f-4d40-abca-7c7ca65645d9.png",
     "productUrl": "https://silpo.ua/product/rom-cayo-grande-anejo-440698",
     "silpoMatch": {
       "silpo_title": "Ром Cayo Grande Anejo",
       "similarity_score": 1.0,
-      "price": 399.0,
+      "price": 599.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-cayo-grande-anejo-440698"
     },
@@ -6539,14 +6535,14 @@
     "region": "Ямайка",
     "brand": "Captain Morgan",
     "category": "rum",
-    "price": 949.0,
+    "price": 569.0,
     "volumeWeight": "1л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/3b2c231c-1638-4993-9c22-73e748d7708e.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-spiced-gold-3920",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Captain Morgan Spiced Gold",
       "similarity_score": 1.0,
-      "price": 949.0,
+      "price": 569.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-spiced-gold-3920"
     },
@@ -6567,14 +6563,14 @@
     "region": "Велика Британія",
     "brand": "Sailor Jerry",
     "category": "rum",
-    "price": 919.0,
+    "price": 724.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/137ab5a1-156e-44ba-a21f-8ec2ed99cd12.png",
     "productUrl": "https://silpo.ua/product/rom-sailor-jerry-676455",
     "silpoMatch": {
       "silpo_title": "Ром Sailor Jerry",
       "similarity_score": 1.0,
-      "price": 919.0,
+      "price": 724.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-sailor-jerry-676455"
     },
@@ -6899,6 +6895,20 @@
     ]
   },
   {
+    "name": "St-Roc Foundation Rum",
+    "category": "rum",
+    "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/st-roc-foundation-rum/",
+    "sourceUrls": {
+      "The Rum Howler Blog": "https://therumhowlerblog.com/rum-reviews/dark-rums/st-roc-foundation-rum/"
+    },
+    "ratings": [
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.35
+      }
+    ]
+  },
+  {
     "name": "Siesta Key Spiced",
     "description": "Siesta Key Spiced rum - rated #4872 of 15795 rums:  see 47 reviews, photos, other Siesta Key rums, and similar Spiced rums from United States",
     "region": "United States",
@@ -6918,12 +6928,12 @@
     "lastScrapedAt": 1788128021555,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.3
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.4
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.3
       }
     ]
   },
@@ -6933,11 +6943,12 @@
     "age": 5.0,
     "region": "Ямайка",
     "category": "rum",
+    "price": 749.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/appleton-estate-signature-blend-vx-jamaican-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Appleton Estate Signature Blend",
-      "similarity_score": 0.9117647058823529,
-      "price": 929.0,
+      "similarity_score": 1.0,
+      "price": 749.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-appleton-estate-signature-blend-759526"
     },
@@ -6964,6 +6975,7 @@
     "brand": "Barcelo",
     "type": "Aged",
     "category": "rum",
+    "price": 579.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/8031/medium_barcelo-gran-anejo-dark-series.webp?v=1741231978",
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/barcelo-gran-anejo-rum/",
     "silpoMatch": {
@@ -6985,12 +6997,12 @@
     "lastScrapedAt": 1788130149936,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.3
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.0
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.3
       }
     ]
   },
@@ -7550,6 +7562,20 @@
     ]
   },
   {
+    "name": "Goslings Family Reserve Old Rum Bottle No. 2634/13",
+    "category": "rum",
+    "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/goslings-family-reserve-old-rum-bottle-no-263413/",
+    "sourceUrls": {
+      "The Rum Howler Blog": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/goslings-family-reserve-old-rum-bottle-no-263413/"
+    },
+    "ratings": [
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.3
+      }
+    ]
+  },
+  {
     "name": "Blue Chair Bay White Rum",
     "category": "rum",
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/white-rums/blue-chair-bay-white-rum/",
@@ -7597,6 +7623,7 @@
     "age": 5.0,
     "region": "Ямайка",
     "category": "rum",
+    "price": 1899.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/blackwell-fine-jamaican-dark-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Blackwell Fine Jamaican 007 Limited Edition",
@@ -7679,10 +7706,11 @@
     "age": 5.0,
     "region": "Куба",
     "category": "rum",
+    "price": 789.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/rum-review-santiago-de-cuba-ron-anejo/",
     "silpoMatch": {
       "silpo_title": "Ром Santiago de Cuba Anejo",
-      "similarity_score": 0.8461538461538461,
+      "similarity_score": 1.0,
       "price": 789.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santiago-de-cuba-anejo-504538"
@@ -7758,11 +7786,12 @@
     "age": 5.0,
     "region": "Ямайка",
     "category": "rum",
+    "price": 514.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/white-rums/captain-morgan-white-rum/",
     "silpoMatch": {
       "silpo_title": "Ром Captain Morgan White",
       "similarity_score": 1.0,
-      "price": 659.0,
+      "price": 514.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-captain-morgan-white-646277"
     },
@@ -7930,12 +7959,12 @@
     "lastScrapedAt": 1788130103852,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.2
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.3
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.2
       }
     ]
   },
@@ -8141,47 +8170,19 @@
     "region": "Нідерланди",
     "brand": "Commander Jones",
     "category": "rum",
-    "price": 449.0,
+    "price": 464.0,
     "volumeWeight": "1л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/595ae283-19d7-449b-83a6-8e09c1c07b1c.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-commander-jones-dark-spiced-987545",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Commander Jones Dark Spiced",
       "similarity_score": 1.0,
-      "price": 449.0,
+      "price": 464.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-commander-jones-dark-spiced-987545"
     },
     "sourceUrls": {
       "Silpo": "https://silpo.ua/product/napii-na-osnovi-romu-commander-jones-dark-spiced-987545"
-    },
-    "ratings": [
-      {
-        "provider": "Silpo",
-        "rating": 8.2
-      }
-    ]
-  },
-  {
-    "name": "Ром Appleton Estate Signature Blend",
-    "abv": 40.0,
-    "age": 5.0,
-    "region": "Ямайка",
-    "brand": "Appleton Estate",
-    "category": "rum",
-    "price": 929.0,
-    "volumeWeight": "0,7л",
-    "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/421cbff2-637a-4917-be6e-33d1d6d4f9ac.png",
-    "productUrl": "https://silpo.ua/product/rom-appleton-estate-signature-blend-759526",
-    "silpoMatch": {
-      "silpo_title": "Ром Appleton Estate Signature Blend",
-      "similarity_score": 1.0,
-      "price": 929.0,
-      "in_stock": true,
-      "url": "https://silpo.ua/product/rom-appleton-estate-signature-blend-759526"
-    },
-    "sourceUrls": {
-      "Silpo": "https://silpo.ua/product/rom-appleton-estate-signature-blend-759526"
     },
     "ratings": [
       {
@@ -8254,12 +8255,12 @@
     "lastScrapedAt": 1788130081741,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 8.15
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.5
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 8.15
       }
     ]
   },
@@ -8635,6 +8636,7 @@
     "brand": "Admiral Rodney",
     "type": "Aged",
     "category": "rum",
+    "price": 2299.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/6467/medium_admiral-rodney-hms-royal-oak.webp?v=1741231647",
     "productUrl": "https://rumratings.com/rum/6467-admiral-rodney-hms-royal-oak",
     "silpoMatch": {
@@ -8690,6 +8692,7 @@
     "abv": 37.5,
     "region": "Ірландія",
     "category": "rum",
+    "price": 599.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/the-wild-geese-golden-rum/",
     "silpoMatch": {
       "silpo_title": "Ром The Wild Geese Golden 37,5%",
@@ -8728,6 +8731,7 @@
     "abv": 37.5,
     "region": "Домініканська Рес-ка",
     "category": "rum",
+    "price": 1299.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/barcelo-anejo/",
     "silpoMatch": {
       "silpo_title": "Ром Barcelo Gran Anejo 0,7 л +2 склянки",
@@ -9392,6 +9396,7 @@
     "age": 5.0,
     "region": "США",
     "category": "rum",
+    "price": 1399.0,
     "productUrl": "https://therumhowlerblog.com/rum-reviews/dark-rums/bacardi-gold/",
     "silpoMatch": {
       "silpo_title": "Ром Bacardi Reserva Ocho Gold 40% 8 років",
@@ -9461,12 +9466,12 @@
     "lastScrapedAt": 1788130107860,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 7.9
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.3
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 7.9
       }
     ]
   },
@@ -10169,11 +10174,12 @@
     "brand": "Santiago de Cuba",
     "type": "Aged",
     "category": "rum",
+    "price": 1999.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/1431/medium_santiago-de-cuba-anejo-superior-11-year.webp?v=1741230770",
     "productUrl": "https://rumratings.com/rum/1431-santiago-de-cuba-anejo-superior-11-year",
     "silpoMatch": {
       "silpo_title": "Ром Santiago de Cuba Anejo Superior 11 років",
-      "similarity_score": 0.85,
+      "similarity_score": 1.0,
       "price": 1999.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santiago-de-cuba-anejo-superior-11-rokiv-933526"
@@ -10213,40 +10219,6 @@
     "distillationMethod": "Unknown",
     "womenLed": false,
     "lastScrapedAt": 1788127741336,
-    "ratings": [
-      {
-        "provider": "RumRatings",
-        "rating": 7.8
-      }
-    ]
-  },
-  {
-    "name": "Blackwell 007 Limited Edition",
-    "description": "Blackwell 007 Limited Edition rum - rated #4044 of 15795 rums:  see 56 reviews, photos, other Blackwell rums, and similar Aged rums from Jamaica",
-    "abv": 40.0,
-    "age": 5.0,
-    "region": "Jamaica",
-    "brand": "Blackwell",
-    "type": "Aged",
-    "category": "rum",
-    "imgUrl": "https://images.rumratings.com/uploads/brand/image/12125/medium_blackwell-007-limited-edition.webp?v=1741232660",
-    "productUrl": "https://rumratings.com/rum/12125-blackwell-007-limited-edition",
-    "silpoMatch": {
-      "silpo_title": "Ром Blackwell Fine Jamaican 007 Limited Edition",
-      "similarity_score": 1.0,
-      "price": 1899.0,
-      "in_stock": true,
-      "url": "https://silpo.ua/product/rom-blackwell-fine-jamaican-007-limited-edition-926320"
-    },
-    "sourceUrls": {
-      "RumRatings": "https://rumratings.com/rum/12125-blackwell-007-limited-edition",
-      "Silpo": "https://silpo.ua/product/rom-blackwell-fine-jamaican-007-limited-edition-926320"
-    },
-    "rawMaterial": "Unknown",
-    "process": "Unknown",
-    "distillationMethod": "Unknown",
-    "womenLed": false,
-    "lastScrapedAt": 1788127743408,
     "ratings": [
       {
         "provider": "RumRatings",
@@ -10488,6 +10460,7 @@
     "brand": "Veritas",
     "type": "Light",
     "category": "rum",
+    "price": 1999.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/6255/medium_veritas-white.webp?v=1741231618",
     "productUrl": "https://rumratings.com/rum/6255-veritas-white",
     "silpoMatch": {
@@ -10649,11 +10622,12 @@
     "brand": "Mount Gay",
     "type": "Aged",
     "category": "rum",
+    "price": 1499.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/565/medium_Mount_Gay_Extra_Old_rum_A_400px.webp?v=1741230498",
     "productUrl": "https://rumratings.com/rum/565-mount-gay-xo-extra-old",
     "silpoMatch": {
       "silpo_title": "Ром Mount Gay Extra old в коробці",
-      "similarity_score": 0.8636363636363636,
+      "similarity_score": 1.0,
       "price": 1499.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-mount-gay-extra-old-v-korobtsi-579496"
@@ -10809,14 +10783,14 @@
     "region": "Панама",
     "brand": "Cortez",
     "category": "rum",
-    "price": 349.0,
+    "price": 499.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/127c4f6b-b65d-4ce3-8bdd-eb786b498df4.png",
     "productUrl": "https://silpo.ua/product/rom-cortez-blanco-982838",
     "silpoMatch": {
       "silpo_title": "Ром Cortez Blanco",
       "similarity_score": 1.0,
-      "price": 349.0,
+      "price": 499.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-cortez-blanco-982838"
     },
@@ -11286,6 +11260,7 @@
     "brand": "Malecon",
     "type": "Aged",
     "category": "rum",
+    "price": 1649.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/3737/medium_malecon-rare-proof-20-year.webp?v=1741231120",
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/white-rums/proof-rum/",
     "silpoMatch": {
@@ -11308,12 +11283,12 @@
     "lastScrapedAt": 1788130127979,
     "ratings": [
       {
-        "provider": "The Rum Howler Blog",
-        "rating": 7.65
-      },
-      {
         "provider": "RumRatings",
         "rating": 7.1
+      },
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 7.65
       }
     ]
   },
@@ -11337,6 +11312,20 @@
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/flavoured-spiced-rums/whistling-andy-hibiscus-coconut-rum/",
     "sourceUrls": {
       "The Rum Howler Blog": "https://therumhowlerblog.wordpress.com/rum-reviews/flavoured-spiced-rums/whistling-andy-hibiscus-coconut-rum/"
+    },
+    "ratings": [
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 7.65
+      }
+    ]
+  },
+  {
+    "name": "Screech Honey Flavoured Rum",
+    "category": "rum",
+    "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/flavoured-spiced-rums/screech-honey-flavoured-rum/",
+    "sourceUrls": {
+      "The Rum Howler Blog": "https://therumhowlerblog.wordpress.com/rum-reviews/flavoured-spiced-rums/screech-honey-flavoured-rum/"
     },
     "ratings": [
       {
@@ -11422,6 +11411,7 @@
     "brand": "Koloa",
     "type": "Flavored",
     "category": "rum",
+    "price": 1599.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/2210/medium_Koloa_Coconut_rum_400px.webp?v=1741230987",
     "productUrl": "https://rumratings.com/rum/2210-koloa-coconut",
     "silpoMatch": {
@@ -12271,14 +12261,14 @@
     "region": "Італія",
     "brand": "Captain Morgan",
     "category": "rum",
-    "price": 699.0,
+    "price": 504.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/5bfb4a8f-abca-47ce-9433-935da61e2c38.png",
     "productUrl": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-tiki-mango-pineapple-873720",
     "silpoMatch": {
       "silpo_title": "Напій на основі рому Captain Morgan Tiki Mango & Pineapple",
       "similarity_score": 1.0,
-      "price": 699.0,
+      "price": 504.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/napii-na-osnovi-romu-captain-morgan-tiki-mango-pineapple-873720"
     },
@@ -12299,14 +12289,14 @@
     "region": "Куба",
     "brand": "Santisima Trinidad de Cuba",
     "category": "rum",
-    "price": 599.0,
+    "price": 464.0,
     "volumeWeight": "0,7л",
     "imgUrl": "https://images.silpo.ua/products/1600x1600/webp/0e3b4174-466c-4186-a07e-d3d969050c07.png",
     "productUrl": "https://silpo.ua/product/rom-santisima-trinidad-de-cuba-3-roky-871942",
     "silpoMatch": {
       "silpo_title": "Ром Santisima Trinidad de Cuba 3 роки",
       "similarity_score": 1.0,
-      "price": 599.0,
+      "price": 464.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santisima-trinidad-de-cuba-3-roky-871942"
     },
@@ -12356,12 +12346,13 @@
     "brand": "Santa Teresa",
     "type": "Aged",
     "category": "rum",
+    "price": 2199.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/870/medium_Santa_Teresa_1796_rum.webp?v=1741230594",
     "productUrl": "https://rumratings.com/rum/870-santa-teresa-1796",
     "silpoMatch": {
       "silpo_title": "Ром Santa Teresa 1796 у тубусі",
       "similarity_score": 1.0,
-      "price": 3599.0,
+      "price": 2199.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santa-teresa-1796-u-tubusi-1024622"
     },
@@ -12898,11 +12889,12 @@
     "age": 5.0,
     "region": "Куба",
     "category": "rum",
+    "price": 769.0,
     "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/white-rums/havana-club-anejo-3-anos/",
     "silpoMatch": {
       "silpo_title": "Ром Havana Club Anejo 3 роки",
-      "similarity_score": 0.8333333333333334,
-      "price": 589.0,
+      "similarity_score": 1.0,
+      "price": 769.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-havana-club-anejo-3-roky-501775"
     },
@@ -13271,6 +13263,7 @@
     "brand": "Brugal",
     "type": "Aged",
     "category": "rum",
+    "price": 2499.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/143/medium_brugal-1888.webp?v=1741230371",
     "productUrl": "https://rumratings.com/rum/143-brugal-1888",
     "silpoMatch": {
@@ -13609,6 +13602,7 @@
     "brand": "Naud",
     "type": "Spiced",
     "category": "rum",
+    "price": 1099.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/6465/medium_naud-hidden-loot.webp?v=1741231646",
     "productUrl": "https://rumratings.com/rum/6465-naud-hidden-loot",
     "silpoMatch": {
@@ -13670,55 +13664,6 @@
       {
         "provider": "The Rum Howler Blog",
         "rating": 7.35
-      }
-    ]
-  },
-  {
-    "name": "Foursquare 2010 ECS XXVII Equidem 14-Year",
-    "description": "Foursquare 2010 ECS XXVII Equidem 14-Year rum - rated #258 of 15796 rums:  see 26 reviews, photos, other Foursquare rums, and similar Aged rums from Barbados",
-    "abv": 61.0,
-    "age": 14.0,
-    "region": "Barbados",
-    "brand": "Foursquare",
-    "type": "Aged",
-    "category": "rum",
-    "imgUrl": "https://images.rumratings.com/uploads/brand/image/17922/medium_foursquare-2010-ecs-xxvii-equidem-14-year.webp?v=1741262109",
-    "productUrl": "https://rumratings.com/rum/17922-foursquare-2010-ecs-xxvii-equidem-14-year",
-    "silpoMatch": {
-      "silpo_title": "Ром Admiral Rodney HMS Formidable",
-      "similarity_score": 1.0,
-      "price": 2999.0,
-      "in_stock": true,
-      "url": "https://silpo.ua/product/rom-admiral-rodney-hms-formidable-933208"
-    },
-    "sourceUrls": {
-      "RumRatings": "https://rumratings.com/rum/17922-foursquare-2010-ecs-xxvii-equidem-14-year",
-      "Silpo": "https://silpo.ua/product/rom-admiral-rodney-hms-formidable-933208"
-    },
-    "yearDistilled": 2010,
-    "rawMaterial": "Molasses",
-    "process": "Pure blend (1 distillery)",
-    "distillationMethod": "Pot and Column Still",
-    "womenLed": false,
-    "lastScrapedAt": 1788130151894,
-    "ratings": [
-      {
-        "provider": "RumRatings",
-        "rating": 7.0
-      }
-    ]
-  },
-  {
-    "name": "Flor De Caña Centenario 21 Commemorative Edition",
-    "category": "rum",
-    "productUrl": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/flor-de-cana-centenario-21-commemorative-edition/",
-    "sourceUrls": {
-      "The Rum Howler Blog": "https://therumhowlerblog.wordpress.com/rum-reviews/dark-rums/flor-de-cana-centenario-21-commemorative-edition/"
-    },
-    "ratings": [
-      {
-        "provider": "The Rum Howler Blog",
-        "rating": 9.75
       }
     ]
   },
@@ -14300,11 +14245,12 @@
     "brand": "Ron Del Barrilito",
     "type": "Aged",
     "category": "rum",
+    "price": 1799.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/1257/medium_ron-del-barrilito-3-star(2).webp?v=1741230718",
     "productUrl": "https://rumratings.com/rum/1257-ron-del-barrilito-3-star",
     "silpoMatch": {
       "silpo_title": "Ром Ron del Barrilito Two Stars",
-      "similarity_score": 0.8518518518518519,
+      "similarity_score": 1.0,
       "price": 1799.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-ron-del-barrilito-two-stars-923623"
@@ -14579,6 +14525,20 @@
     ]
   },
   {
+    "name": "Bacardi Carta Fuego",
+    "category": "rum",
+    "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/bacardi-carta-fuego/",
+    "sourceUrls": {
+      "The Rum Howler Blog": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/bacardi-carta-fuego/"
+    },
+    "ratings": [
+      {
+        "provider": "The Rum Howler Blog",
+        "rating": 7.3
+      }
+    ]
+  },
+  {
     "name": "Crow’s Nest Spiced Rum",
     "category": "rum",
     "productUrl": "https://therumhowlerblog.com/rum-reviews/flavoured-spiced-rums/crows-nest-spiced-rum/",
@@ -14743,6 +14703,7 @@
     "brand": "Clement",
     "type": "Agricole",
     "category": "rum",
+    "price": 899.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/2297/medium_Clement_Canne-Bleue_rum_400px.webp?v=1741231009",
     "productUrl": "https://rumratings.com/rum/2297-clement-canne-bleue",
     "silpoMatch": {
@@ -14852,12 +14813,13 @@
     "brand": "Matusalem",
     "type": "Aged",
     "category": "rum",
+    "price": 3499.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/1073/medium_Matusalem_Gran_Reserva_23_rum.webp?v=1741230659",
     "productUrl": "https://rumratings.com/rum/1073-matusalem-gran-reserva-23-year",
     "silpoMatch": {
       "silpo_title": "Ром Matusalem Gran Reserva 23 роки в коробці",
-      "similarity_score": 0.8333333333333334,
-      "price": 6990.0,
+      "similarity_score": 1.0,
+      "price": 3499.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-matusalem-gran-reserva-23-roky-v-korobtsi-872561"
     },
@@ -15643,12 +15605,13 @@
     "brand": "Santisima Trinidad de Cuba",
     "type": "Aged",
     "category": "rum",
+    "price": 1409.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/8728/medium_santisima-trinidad-de-cuba-15-year.webp?v=1741232151",
     "productUrl": "https://rumratings.com/rum/8728-santisima-trinidad-de-cuba-15-year",
     "silpoMatch": {
       "silpo_title": "Ром Santisima Trinidad de Cuba Reserva",
-      "similarity_score": 0.8235294117647058,
-      "price": 1090.0,
+      "similarity_score": 1.0,
+      "price": 1409.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santisima-trinidad-de-cuba-reserva-982896"
     },
@@ -15953,11 +15916,12 @@
     "brand": "Santiago de Cuba",
     "type": "Aged",
     "category": "rum",
+    "price": 2599.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/2183/medium_Santiago-de-Cuba_12-Year_rum_400px.webp?v=1741230979",
     "productUrl": "https://rumratings.com/rum/2183-santiago-de-cuba-extra-anejo-12-year",
     "silpoMatch": {
       "silpo_title": "Ром Santiago de Cuba Extra Anejo 12 років",
-      "similarity_score": 0.8378378378378378,
+      "similarity_score": 1.0,
       "price": 2599.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-santiago-de-cuba-extra-anejo-12-rokiv-933527"
@@ -16236,6 +16200,42 @@
     ]
   },
   {
+    "name": "Foursquare 2010 ECS XXVII Equidem 14-Year",
+    "description": "Foursquare 2010 ECS XXVII Equidem 14-Year rum - rated #258 of 15796 rums:  see 26 reviews, photos, other Foursquare rums, and similar Aged rums from Barbados",
+    "abv": 61.0,
+    "age": 14.0,
+    "region": "Barbados",
+    "brand": "Foursquare",
+    "type": "Aged",
+    "category": "rum",
+    "price": 2999.0,
+    "imgUrl": "https://images.rumratings.com/uploads/brand/image/17922/medium_foursquare-2010-ecs-xxvii-equidem-14-year.webp?v=1741262109",
+    "productUrl": "https://rumratings.com/rum/17922-foursquare-2010-ecs-xxvii-equidem-14-year",
+    "silpoMatch": {
+      "silpo_title": "Ром Admiral Rodney HMS Formidable",
+      "similarity_score": 1.0,
+      "price": 2999.0,
+      "in_stock": true,
+      "url": "https://silpo.ua/product/rom-admiral-rodney-hms-formidable-933208"
+    },
+    "sourceUrls": {
+      "RumRatings": "https://rumratings.com/rum/17922-foursquare-2010-ecs-xxvii-equidem-14-year",
+      "Silpo": "https://silpo.ua/product/rom-admiral-rodney-hms-formidable-933208"
+    },
+    "yearDistilled": 2010,
+    "rawMaterial": "Molasses",
+    "process": "Pure blend (1 distillery)",
+    "distillationMethod": "Pot and Column Still",
+    "womenLed": false,
+    "lastScrapedAt": 1788130151894,
+    "ratings": [
+      {
+        "provider": "RumRatings",
+        "rating": 7.0
+      }
+    ]
+  },
+  {
     "name": "A. H. Riise Royal Danish Navy 40%",
     "description": "A. H. Riise Royal Danish Navy 40% rum - rated #5318 of 15795 rums:  see 163 reviews, photos, other A. H. Riise rums, and similar Gold rums from Denmark",
     "abv": 40.0,
@@ -16422,12 +16422,13 @@
     "brand": "Bumbu",
     "type": "Aged",
     "category": "rum",
+    "price": 1869.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/7162/medium_bumbu-xo.webp?v=1741231885",
     "productUrl": "https://rumratings.com/rum/7162-bumbu-xo",
     "silpoMatch": {
       "silpo_title": "Ром Bumbu XO",
       "similarity_score": 1.0,
-      "price": 2099.0,
+      "price": 1869.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-bumbu-xo-943441"
     },
@@ -16738,11 +16739,12 @@
     "brand": "Bacardi",
     "type": "Aged",
     "category": "rum",
+    "price": 1749.0,
     "imgUrl": "https://images.rumratings.com/uploads/brand/image/6205/medium_bacardi-gran-reserva-diez-10-year.webp?v=1741231602",
     "productUrl": "https://rumratings.com/rum/6205-bacardi-gran-reserva-diez-10-year",
     "silpoMatch": {
       "silpo_title": "Ром Bacardi Gran Reserva Diez 10 років",
-      "similarity_score": 0.8235294117647058,
+      "similarity_score": 1.0,
       "price": 1749.0,
       "in_stock": true,
       "url": "https://silpo.ua/product/rom-bacardi-gran-reserva-diez-10-rokiv-803323"

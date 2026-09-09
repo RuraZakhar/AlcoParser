@@ -65,6 +65,13 @@ public class RumNameMatcher {
         double bestScore = 0.0;
 
         for (RumProduct candidate : candidates) {
+            // Same class of bug caught and fixed in wine.parser/beer.parser this session: pure
+            // word-overlap similarity has no concept of "brand", so two rums from DIFFERENT
+            // distillers can still score above threshold if shared style/region words outweigh a
+            // short brand name. Block outright whenever both sides already have a known,
+            // non-generic brand and they don't match, before scoring the pair at all.
+            if (!sameBrand(candidate.getBrand(), incoming.getBrand())) continue;
+
             double score = similarity(candidate.getName(), incoming.getName());
             if (score > bestScore) {
                 bestScore = score;
@@ -73,6 +80,27 @@ public class RumNameMatcher {
         }
 
         return (best != null && bestScore >= threshold) ? best : null;
+    }
+
+    /**
+     * Той самий guard, що й WineryWhitelist.sameWinery / BeerNameMatcher.sameBrand.
+     */
+    public static boolean sameBrand(String brand1, String brand2) {
+        if (brand1 == null || brand2 == null) return true;
+        String a = normalizeBrand(brand1);
+        String b = normalizeBrand(brand2);
+        if (a.isEmpty() || b.isEmpty()) return true;
+
+        String paddedA = " " + a + " ";
+        String paddedB = " " + b + " ";
+        return a.equals(b) || paddedA.contains(paddedB) || paddedB.contains(paddedA);
+    }
+
+    private static String normalizeBrand(String value) {
+        String normalized = DIACRITICS_PATTERN.matcher(Normalizer.normalize(value, Normalizer.Form.NFD)).replaceAll("");
+        normalized = normalized.toLowerCase(Locale.ROOT);
+        normalized = NON_ALNUM_SPACE_PATTERN.matcher(normalized).replaceAll("");
+        return WHITESPACE_PATTERN.matcher(normalized).replaceAll(" ").trim();
     }
 
     private static boolean hasConflictingNumbers(String s1, String s2) {

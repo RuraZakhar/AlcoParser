@@ -53,16 +53,30 @@ public class SilpoParser implements RumParser {
         System.out.println("   New items added (Silpo only): " + newAddedCount);
     }
 
-    // Fuzzy-only by design: Silpo items are being matched against entries from other
-    // sources that were parsed first, so there is no source-specific URL to exact-match
-    // against yet (unlike beer.parser.Main / RumHowlerParser / RumRatingsParser, which
-    // all have an existing identifier to check before falling back to fuzzy matching).
+    // Exact match first, mirroring beer.parser.Main / RumHowlerParser / RumRatingsParser's own
+    // exact-match step. Without this, a Silpo item that already fuzzy-matched into another entry
+    // on a PREVIOUS run gets silently re-added as a fresh duplicate on every SUBSEQUENT run: the
+    // fuzzy loop below skips any candidate that already has a Silpo sourceUrl at all (meant to
+    // stop a second, DIFFERENT Silpo item from overwriting an existing match), which also blocks
+    // re-matching THIS SAME item against its own already-merged target once cached. Confirmed
+    // real damage: Chairman's Reserve, Appleton Estate Signature Blend, Blackwell Fine Jamaican,
+    // and Santiago de Cuba Carta Blanca each ended up duplicated this way (official English name
+    // from Howler/RumRatings vs Silpo's own Ukrainian listing name never re-converge).
     private boolean mergeIntoCollection(RumProduct silpoRum, Set<RumProduct> rumSet) {
+        for (RumProduct existingRum : rumSet) {
+            if (silpoRum.getProductUrl() != null
+                    && silpoRum.getProductUrl().equals(existingRum.getSourceUrls().get("Silpo"))) {
+                applySilpoMatch(existingRum, silpoRum, 1.0);
+                return false;
+            }
+        }
+
         RumProduct bestMatch = null;
         double bestScore = 0.0;
 
         for (RumProduct existingRum : rumSet) {
             if (existingRum.getSourceUrls().containsKey("Silpo")) continue;
+            if (!RumNameMatcher.sameBrand(existingRum.getBrand(), silpoRum.getBrand())) continue;
             double score = RumNameMatcher.similarity(existingRum.getName(), silpoRum.getName());
             if (score > bestScore) {
                 bestScore = score;
@@ -71,35 +85,39 @@ public class SilpoParser implements RumParser {
         }
 
         if (bestMatch != null && bestScore > FUZZY_THRESHOLD) {
-            bestMatch.setSilpoMatch(new RumProduct.SilpoMatch(
-                    silpoRum.getName(),
-                    bestScore,
-                    silpoRum.getPrice(),
-                    silpoRum.getPrice() != null && silpoRum.getPrice() > 0,
-                    silpoRum.getProductUrl()
-            ));
-            bestMatch.addSourceUrl("Silpo", silpoRum.getProductUrl());
-            if (!silpoRum.getRatings().isEmpty()) {
-                bestMatch.getRatings().addAll(silpoRum.getRatings());
-            }
-
-            if (bestMatch.getRegion() == null) bestMatch.setRegion(silpoRum.getRegion());
-            if (bestMatch.getAbv() == null) bestMatch.setAbv(silpoRum.getAbv());
-            if (bestMatch.getAge() == null) bestMatch.setAge(silpoRum.getAge());
-
+            applySilpoMatch(bestMatch, silpoRum, bestScore);
             return false;
         }
 
-        silpoRum.setSilpoMatch(new RumProduct.SilpoMatch(
+        applySilpoMatch(silpoRum, silpoRum, 1.0);
+        rumSet.add(silpoRum);
+        return true;
+    }
+
+    private void applySilpoMatch(RumProduct target, RumProduct silpoRum, double score) {
+        target.setSilpoMatch(new RumProduct.SilpoMatch(
                 silpoRum.getName(),
-                1.0,
+                score,
                 silpoRum.getPrice(),
                 silpoRum.getPrice() != null && silpoRum.getPrice() > 0,
                 silpoRum.getProductUrl()
         ));
-        silpoRum.addSourceUrl("Silpo", silpoRum.getProductUrl());
-        rumSet.add(silpoRum);
-        return true;
+        target.addSourceUrl("Silpo", silpoRum.getProductUrl());
+        if (!silpoRum.getRatings().isEmpty()) {
+            target.getRatings().addAll(silpoRum.getRatings());
+        }
+
+        // Confirmed real bug (external audit): top-level price never followed silpoMatch.price
+        // -- 17 rums ended up with a stale/wrong price and 50 more had no price at all, even
+        // though a Silpo match with a real price existed right next to it. Silpo is the only
+        // source of ground-truth pricing here, so its price always wins on refresh.
+        if (silpoRum.getPrice() != null) {
+            target.setPrice(silpoRum.getPrice());
+        }
+
+        if (target.getRegion() == null) target.setRegion(silpoRum.getRegion());
+        if (target.getAbv() == null) target.setAbv(silpoRum.getAbv());
+        if (target.getAge() == null) target.setAge(silpoRum.getAge());
     }
 
     private List<RumProduct> fetchAllSilpoRums() {
