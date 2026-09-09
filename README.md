@@ -1,13 +1,14 @@
-# RumParser
+# AlcoParser
 
-RumParser is a Java Maven application designed to scrape and match rum data from various sources including RumRatings, The Rum Howler Blog, and Silpo. The application filters the scraped data to output top-rated rums.
+AlcoParser is a Java Maven application that scrapes rum, wine, and beer listings from Ukrainian retailers (Silpo, OKWine) and matches them against external rating sources (RumRatings, The Rum Howler Blog, Vivino) to output curated, top-rated product lists.
 
 ## Features
 
-- Scrapes rum information and ratings from multiple sources.
-- Matches and aggregates data to create a comprehensive view of rum products.
-- Filters rums to output those with high ratings.
-- Outputs the structured data to a JSON file (`top_rum_products.json`).
+- Scrapes rum, wine, and beer listings from Silpo and OKWine.
+- Cross-references listings against RumRatings, The Rum Howler Blog, and Vivino ratings.
+- Deduplicates and merges matching products across sources.
+- Filters output to only well-rated products.
+- Outputs structured JSON per category (`top_rum_products.json`, `top_wines.json`, `top_beers.json`).
 
 ## Requirements
 
@@ -39,12 +40,20 @@ To compile the project, run the following Maven command:
 mvn clean compile
 ```
 
-To execute the main application:
+To run a specific category parser:
 
 ```bash
 mvn exec:java -Dexec.mainClass="rum.parser.Main"
+mvn exec:java -Dexec.mainClass="wine.parser.Main"
+mvn exec:java -Dexec.mainClass="beer.parser.Main"
 ```
 
 ## Output
 
-The application reads from and writes to `top_rum_products.json` in the root directory. It stores a list of unique, highly-rated rums along with their ratings, prices, and links to the source websites.
+Each category parser reads from and writes to its own JSON file in the root directory:
+
+- `top_rum_products.json`
+- `top_wines.json`
+- `top_beers.json`
+
+Each file stores a list of unique, well-rated products along with their ratings, prices, and links to the source websites.
