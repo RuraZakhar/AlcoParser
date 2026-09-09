@@ -7,6 +7,7 @@ import wine.parser.parsers.VivinoDatasetParser;
 import wine.parser.parsers.WineParser;
 import wine.parser.util.WineNameMatcher;
 import wine.parser.util.WineryWhitelist;
+import common.parser.util.JsonExporter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -14,7 +15,6 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.Writer;
 import java.lang.reflect.Type;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -155,12 +155,13 @@ public class Main {
     }
 
     private static void saveJsonFile(List<WineProduct> wines, String fileName) {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-        try (Writer writer = Files.newBufferedWriter(Path.of(fileName))) {
-            gson.toJson(wines, writer);
+        // Writes to a .tmp file and atomically renames it into place (see
+        // common.parser.util.JsonExporter, already used by rum.parser/beer.parser) --
+        // a crash or kill mid-write here used to leave top_wines.json half-written, which
+        // then fails to parse as the next run's cache, silently losing everything in it.
+        boolean success = new JsonExporter().exportToJson(wines, fileName);
+        if (success) {
             System.out.println("=== DONE! Saved: " + wines.size() + " entries ===");
-        } catch (IOException e) {
-            System.err.println("Error saving file: " + e.getMessage());
         }
     }
 
